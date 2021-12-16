@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateContributorsTable extends Migration
+class CreateCategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,11 @@ class CreateContributorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('contributors', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->text('detail',300);
+            $table->string('image');
             $table->timestamps();
         });
     }
@@ -26,6 +29,6 @@ class CreateContributorsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('contributors');
+        Schema::dropIfExists('categories');
     }
 }
