@@ -19,6 +19,11 @@
            <header>
                <a href="#" class="logo">logo</a>
            </header>
+ 
+           <section class="content">
+               @yield('content')
+           </section>
+
            <footer>
                 <span class="up_slide">
                     <ul>
