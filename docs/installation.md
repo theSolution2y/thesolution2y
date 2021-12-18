@@ -82,13 +82,11 @@
 
    After entering the phpmyadmin homepage click on the new icon to create new database & name it as "thesolution".
 
-
-
 9. Run migrations
     ```sh
     php artisan migrate
     ```
-
+    
 10. _(Optional)_
 
     To access the project in browser just enter the folder where thesolution files have been clonned.
