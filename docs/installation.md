@@ -1,7 +1,5 @@
 ## Installation Guidelines :
 
-Before you start following the guidelines, make sure to go through the [prerequisites guide](./prerequisites.md) to install the required tools and packages on your machine.
-
 1. Navigate to the right directory where your project will be locally saved
     - For WAMP:
         ```sh
@@ -79,9 +77,6 @@ Before you start following the guidelines, make sure to go through the [prerequi
     DB_USERNAME=root
     DB_PASSWORD=
     ```
-
-    These credentials will be used when you will connect to MySQL Server whether you use XAMPP, WAMP, MAMP (PhpMyadmin) or TablePlus, the proper steps you can find here in the [prerequisites guide](./docs/prerequisites.md).
-
 
 8. Run migrations
     ```sh
