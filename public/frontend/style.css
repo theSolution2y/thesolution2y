@@ -64,6 +64,26 @@ footer{
     height: 55px;
 }
 
+.up_slide{
+    display: none;
+    transform: translateY(500%);
+    transition: 5s all ease;
+}
+
+.up_slide.active {
+    display: inline-block;
+    transform: translateY(0%);
+}
+
+.right_slide{
+    display: none;
+    transition: transform 0.5s;
+}
+
+.right_slide.active {
+    display: inline-block;
+}
+
 footer #hamburger{
     font-size: 20px;
     margin-left: 10px;
@@ -128,3 +148,4 @@ footer .right_slide ul li{
 footer .right_slide ul li a{
     color:rgb(245, 181, 181);
 }
+
