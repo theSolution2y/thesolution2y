@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background: url('https://res.cloudinary.com/practicaldev/image/fetch/s--_MCEk7P6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vm957e5dm3hxnwc94dd7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.container{
+    position: relative;
+    min-height: calc(100vh  280px);
+    min-height: 82vh;
+    background: rgba(255,255,255,0.05);
+    box-shadow: 0 15px 35px rgba(255,255,255,0.05);
+    border-radius: 20px;        
+}
+
+header{
+    position:absolute;
+    top:-25px;
+    right:20px;
+    left:20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    height: 42px;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(245, 181, 181);                          
+    font-size: 18px;
+    margin-left: 2rem;
+    line-height: 2em;
+}
+
+footer{
+    position:absolute;
+    bottom:-25px;
+    right:20px;
+    left:20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+}
+
+footer #hamburger{
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(245, 181, 181);                          
+}
+
+footer .up_slide{
+    position: absolute;
+    bottom: 70px;
+    left:-10px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 0.5rem 2rem rgba(255,255,255,0.2);
+    width: 150px;
+}
+
+footer ul li{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+footer .up_slide ul li a{
+    color: rgb(245, 181, 181);                          
+    text-decoration: none;
+    padding: 0.5rem;
+}
+footer ul li a:hover{
+    background: rgba(255,255,255,0.05);
+}
+
+footer li a .nav_menu{
+    font-size: 12px;
+}
+
+footer .up_slide li .menu_divide_line{
+    color: blue;
+    height: 2px;
+    background: #5da6ff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #5da6ff, 
+                0 0 30px #5da6ff, 
+                0 0 45px #5da6ff,
+                0 0 60px #5da6ff;
+}
+
+footer .right_slide ul{
+    display: inline-flex;
+    margin: 0.1rem;
+    padding: 0.3rem;
+    flex-wrap:wrap;
+}
+
+footer .right_slide ul li{
+    margin: 0 20px;
+    font-size: 18px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 0.5rem 2rem rgba(255,255,255,0.2);
+    padding: 0.5rem;
+}
+
+footer .right_slide ul li a{
+    color:rgb(245, 181, 181);
+}
