@@ -24,3 +24,6 @@ Route::post('/admin/login', [AdminController::class, 'submit_login']);
 
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 
+Route::get('/layout', function () {
+    return view('layout.layout');
+});
