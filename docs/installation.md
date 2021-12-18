@@ -77,8 +77,20 @@
     DB_USERNAME=root
     DB_PASSWORD=
     ```
+8. Create a database
+   After starting both Apache & mysql, click on this [link](http://localhost/phpmyadmin/) to enter the mysql database.
 
-8. Run migrations
+   After entering the phpmyadmin homepage click on the new icon to create new database & name it as "thesolution".
+
+9. Run migrations
     ```sh
     php artisan migrate
     ```
+    
+10. _(Optional)_
+
+    To access the project in browser just enter the folder where thesolution files have been clonned.
+
+    press shitf+right & click on the powershell & run command php artisan serve 
+
+    After running the command,copy the given URL in the browser.
