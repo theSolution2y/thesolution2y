@@ -27,3 +27,7 @@ Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 Route::get('/layout', function () {
     return view('layout.layout');
 });
+
+Route::get('/contributor', function () {
+    return view('dashboard.contributor');
+});
