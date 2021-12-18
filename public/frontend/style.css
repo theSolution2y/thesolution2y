@@ -4,16 +4,19 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    height: 100vh;
+}
 section{
     display: flex;
     justify-content: center;
     align-items:center;
-    min-height: 100vh;
+    height: 100%;
     background: url('https://res.cloudinary.com/practicaldev/image/fetch/s--_MCEk7P6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vm957e5dm3hxnwc94dd7.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 50px;
+    padding: 3.2;
 }
 
 .container{
@@ -43,6 +46,14 @@ header{
     line-height: 2em;
 }
 
+.content{
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    max-height: 100%;
+    line-height: 1.6rem;
+    margin-top: 1.8rem;
+}
+
 footer{
     position:absolute;
     bottom:-25px;
@@ -50,6 +61,7 @@ footer{
     left:20px;
     background: rgba(255,255,255,0.05);
     border-radius: 20px;
+    height: 55px;
 }
 
 footer #hamburger{
