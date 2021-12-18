@@ -89,7 +89,7 @@ footer #hamburger{
     margin-left: 10px;
     padding: 10px;
     cursor: pointer;
-    color: rgb(245, 181, 181);                          
+    color: rgb(0, 0, 0);                          
 }
 
 footer .up_slide{
@@ -107,7 +107,7 @@ footer ul li{
 }
 
 footer .up_slide ul li a{
-    color: rgb(245, 181, 181);                          
+    color: rgb(0, 0, 0);                          
     text-decoration: none;
     padding: 0.5rem;
 }
@@ -146,6 +146,6 @@ footer .right_slide ul li{
 }
 
 footer .right_slide ul li a{
-    color:rgb(245, 181, 181);
+    color:rgb(0, 0, 0);
 }
 
