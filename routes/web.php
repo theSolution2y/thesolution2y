@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CategoryController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,3 +32,6 @@ Route::get('/layout', function () {
 Route::get('/contributor', function () {
     return view('dashboard.contributor');
 });
+
+Route::resource('/admin/category', CategoryController::class);
+// to know more use => php aritsan route:list
