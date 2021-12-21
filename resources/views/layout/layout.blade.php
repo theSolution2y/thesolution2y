@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('frontend')}}/style.css">
+    <link rel="stylesheet" href="{{asset('frontend')}}/layout.css">
     <link rel="stylesheet" href="{{asset('icon')}}/css/all.css">
     <link rel="icon" href="https://storage.cloudconvert.com/tasks/1f948ead-8dc4-4e61-a92f-3569b757450d/favicon.png?AWSAccessKeyId=cloudconvert-production&Expires=1639925309&Signature=jaVg3IlyiY8pAnPpjMv6BZXDI3s%3D&response-content-disposition=inline%3B%20filename%3D%22favicon.png%22&response-content-type=image%2Fpnggi" type="image/x-icon">
 
@@ -58,6 +58,7 @@
                 </span>
 
                 <span id="hamburger"> <i class="fas fa-bars"></i> </span>
+                <span id="ham_close"> <i class="fas fa-times"></i> </span>
                 
                 <span class="right_slide">
                     <ul>
@@ -102,6 +103,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="{{asset('frontend')}}/layout.js"></script>
   </body>

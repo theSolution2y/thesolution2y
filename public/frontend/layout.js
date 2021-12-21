@@ -1,9 +1,18 @@
-const ham = document.querySelector("#hamburger");
-const upslide = document.querySelector(".up_slide");
-const rightslide = document.querySelector(".right_slide")
-ham.addEventListener("click", menu);
-
-function menu() {
-    upslide.classList.toggle("active");
-    rightslide.classList.toggle("active");
-}
+$(document).ready(function(){
+    $('.right_slide').hide();
+    $('.up_slide').hide();
+    $('#ham_close').hide();
+        
+    $("#hamburger").click(function(){
+      $('#hamburger').hide();
+      $('.right_slide').show();
+      $('.up_slide').show();    
+      $('#ham_close').show();
+    });
+    $('#ham_close').click(function(){
+      $('#hamburger').show();
+      $('.right_slide').hide();
+      $('.up_slide').hide();    
+      $('#ham_close').hide();
+    });
+  });
