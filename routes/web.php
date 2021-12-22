@@ -33,5 +33,9 @@ Route::get('/contributor', function () {
     return view('dashboard.contributor');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
 Route::resource('/admin/category', CategoryController::class);
 // to know more use => php aritsan route:list
