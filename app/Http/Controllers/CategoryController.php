@@ -82,7 +82,8 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        //
+        $data = Category::find($id);
+        return view('backend.category.update',['data'=>$data]);
     }
 
     /**
@@ -94,7 +95,28 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        
+        $request->validate([
+            'title'=>'required'
+        ]);
+
+        if ($request->hasFile('cat_image')) {
+            $image = $request->file('cat_image');
+            $reImage = time(). '.'. $image->getClientOriginalExtension();
+            $dest = public_path(('./imgs'));
+            $image->move($dest, $reImage);
+        }
+
+        $category = new Category;
+
+        $category->title = $request->title;
+        $category->detail = $request->detail;
+        $category->image=$reImage;
+
+        $category->save();
+        
+        return redirect('admin/category/create') -> with('success', 'Data has been added');
+
     }
 
     /**
