@@ -1,6 +1,5 @@
 @extends('layout.layout')
 @section('content')
- <!-- You can code now from here -->
  <!DOCTYPE html>
  <html lang="en">
  <head>
@@ -11,6 +10,7 @@
      <link rel="stylesheet" href="{{asset('frontend')}}/about.css">
  </head>
  <body>
+ <!-- You can code now from here -->
 
  </body>
  </html>
