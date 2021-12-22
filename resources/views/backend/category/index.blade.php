@@ -45,7 +45,7 @@
                         <tr>
                             <td>{{$cat->id}}</td>
                             <td>{{$cat->title}}</td>
-                            <td><img src="{{asset('imgs').'/'.$cat->image}}>}}" width="50"/></td>
+                            <td><img src="{{asset('imgs').'/'.$cat->image}}" width="50"/></td>
                             <td>
                                 <a href="#">Update</a>
                                 <a href="#">Delete</a>

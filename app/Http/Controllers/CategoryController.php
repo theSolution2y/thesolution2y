@@ -46,7 +46,7 @@ class CategoryController extends Controller
 
         if ($request->hasFile('cat_image')) {
             $image = $request->file('cat_image');
-            $reImage = time(). `.`. $image->getClientOriginalExtension();
+            $reImage = time(). '.' . $image->getClientOriginalExtension();
             $dest = public_path(('./imgs'));
             $image->move($dest, $reImage);
         }
@@ -55,7 +55,7 @@ class CategoryController extends Controller
 
         $category->title = $request->title;
         $category->detail = $request->detail;
-        $category->image=$reImage;
+        $category->image = $reImage;
 
         $category->save();
         
