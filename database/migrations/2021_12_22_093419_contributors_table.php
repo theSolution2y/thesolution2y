@@ -13,7 +13,7 @@ class ContributorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('admins', function (Blueprint $table) {
+        Schema::create('cotributors', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('emailid');
@@ -29,6 +29,6 @@ class ContributorsTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('contributors');
     }
 }
