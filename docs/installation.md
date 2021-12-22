@@ -15,9 +15,9 @@
     ```
     Note- phpMyAdmin/PHP, apache, and MySQL comes preinstalled with the  WAMP, XAMPP package, that is going to be used later on in this project, so no need to install these files separately. 
 
-2. Clone this repository and move to `theSolution` directory
+2. Clone this repository and move to `theSolution2y` directory
    ```sh
-   git clone https://github.com/balendurawat/theSolution.git
+   git clone https://github.com/theSolution2y/thesolution2y.git
    cd theSolution
    ```
 
@@ -58,7 +58,7 @@
 7. Add the following settings in `.env` file:
     1. Laravel app configurations
     ```sh
-    APP_NAME="theSolution"
+    APP_NAME="theSolution2y"
     APP_ENV=local
     APP_DEBUG=true
     APP_URL=http://theSolution.test
