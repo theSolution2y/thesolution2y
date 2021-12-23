@@ -13,7 +13,7 @@ class ContributorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('cotributors', function (Blueprint $table) {
+        Schema::create('contributors', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('emailid');
