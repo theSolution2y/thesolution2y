@@ -13,11 +13,11 @@ class CreateContactUsTable extends Migration
      */
     public function up()
     {
-        Schema::create('contact_us', function (Blueprint $table) {
+        Schema::create('contactUs', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('first_name',20);
-            $table->string('last_name',20);
+            $table->string('firstName',20);
+            $table->string('lastName',20);
             $table->string('email',50);
             $table->integer('mobile');
             $table->string('message',250);
