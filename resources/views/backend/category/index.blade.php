@@ -45,10 +45,10 @@
                         <tr>
                             <td>{{$cat->id}}</td>
                             <td>{{$cat->title}}</td>
-                            <td><img src="{{asset('imgs').'/'.$cat->image}}" width="50"/></td>
+                            <td><img src="{{asset('imgs').'/'.$cat->image}}" width="100" /></td>
                             <td>
-                                <a href="#">Update</a>
-                                <a href="#">Delete</a>
+                                <a href="{{url('admin/category/'.$cat->id.'/edit')}}">Update</a>
+                                <a href="{{url('admin/category/'.$cat->id.'/delete')}}">Delete</a>
                             </td>
                         </tr>
                     @endforeach
