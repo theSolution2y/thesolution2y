@@ -133,10 +133,9 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
-    {
-        Category::where(`id`,$id)->delete();
-        return redirect('admin/category');
 
+    public function delete($id){
+        category::find($id)->delete();
+        return redirect()->back();
     }
 }

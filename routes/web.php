@@ -39,3 +39,6 @@ Route::get('/about', function () {
 
 Route::resource('/admin/category', CategoryController::class);
 // to know more use => php aritsan route:list
+
+Route::get('admin/category/delete/{id}',[CategoryController::class, 'delete']);
+
