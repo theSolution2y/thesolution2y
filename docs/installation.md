@@ -18,7 +18,7 @@
 2. Clone this repository and move to `theSolution2y` directory
    ```sh
    git clone https://github.com/theSolution2y/thesolution2y.git
-   cd theSolution
+   cd theSolution2y
    ```
 
 3. Install dependencies
@@ -61,7 +61,7 @@
     APP_NAME="theSolution2y"
     APP_ENV=local
     APP_DEBUG=true
-    APP_URL=http://theSolution.test
+    APP_URL=
     ```
 
     ```sh
