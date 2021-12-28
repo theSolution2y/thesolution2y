@@ -17,7 +17,11 @@ class CategoryController extends Controller
         // lets pass the pre existing data to index 
 
         $data = Category::all();
-        return view('backend.category.index', ['data'=>$data]);
+        return view('backend.category.index', ['data'=>$data,
+            'title'=>'All Categories',
+            'meta_desc'=>'This is meta description for all categories'
+    
+        ]);
     }
 
     /**
@@ -49,6 +53,8 @@ class CategoryController extends Controller
             $reImage = time(). '.' . $image->getClientOriginalExtension();
             $dest = public_path(('./imgs'));
             $image->move($dest, $reImage);
+        } else {
+            $reImage=`na`;
         }
 
         $category = new Category;
@@ -105,9 +111,11 @@ class CategoryController extends Controller
             $reImage = time(). '.'. $image->getClientOriginalExtension();
             $dest = public_path(('./imgs'));
             $image->move($dest, $reImage);
+        } else {
+            $reImage=$request->cat_image;
         }
 
-        $category = new Category;
+        $category =Category::find($id);
 
         $category->title = $request->title;
         $category->detail = $request->detail;
@@ -115,7 +123,7 @@ class CategoryController extends Controller
 
         $category->save();
         
-        return redirect('admin/category/create') -> with('success', 'Data has been added');
+        return redirect('admin/category/'.$id.'/edit') -> with('success', 'Data has been added');
 
     }
 
@@ -127,6 +135,8 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Category::where(`id`,$id)->delete();
+        return redirect('admin/category');
+
     }
 }
