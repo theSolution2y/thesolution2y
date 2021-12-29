@@ -28,6 +28,7 @@
                     <tr>
                         <th scope="col">Id</th>
                         <th>Title</th>
+                        <th>Details</th>
                         <th>Image</th>
                         <th>Action</th>
                     </tr>
@@ -36,6 +37,7 @@
                     <tr>
                         <th>Id</th>
                         <th>Title</th>
+                        <th>Details</th>
                         <th>Image</th>
                         <th>Action</th>
                     </tr>
@@ -45,10 +47,12 @@
                         <tr>
                             <td>{{$cat->id}}</td>
                             <td>{{$cat->title}}</td>
-                            <td><img src="{{asset('imgs').'/'.$cat->image}}" width="100" /></td>
+                            <td>{{$cat->detail}}</td>
+                            <td><img src="{{asset('imgs').'/'.$cat->image}}" width="100" />
+                        </td>
                             <td>
                                 <a href="{{url('admin/category/'.$cat->id.'/edit')}}">Update</a>
-                                <a href="{{url('admin/category/'.$cat->id.'/delete')}}">Delete</a>
+                                <a href="{{url('admin/category/delete')}}/{{$cat->id}}">Delete</a>
                             </td>
                         </tr>
                     @endforeach
