@@ -31,7 +31,7 @@ Route::get('/layout', function () {
 });
 
 Route::get('/contributor', function () {
-    return view('dashboard.contributor');
+    return view('contributor');
 });
 
 Route::get('/about', function () {
