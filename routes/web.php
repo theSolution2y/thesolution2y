@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,3 +40,7 @@ Route::get('/about', function () {
 
 Route::resource('/admin/category', CategoryController::class);
 // to know more use => php aritsan route:list
+
+// post
+Route::get('admin/post/{id}/delete',[PostController::class,'destroy']);
+Route::resource('/admin/post', PostController::class);
