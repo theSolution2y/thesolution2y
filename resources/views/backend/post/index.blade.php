@@ -29,6 +29,7 @@
                       <th>#</th>
                       {{-- <th>Category</th> --}}
                       <th>Title</th>
+                      <th>Details</th>
                       <th>Image</th>
                       <th>Full</th>
                       <th>Action</th>
@@ -39,6 +40,7 @@
                       <th>#</th>
                       {{-- <th>Category</th> --}}
                       <th>Title</th>
+                      <th>Details</th>
                       <th>Image</th>
                       <th>Full</th>
                       <th>Action</th>
@@ -50,6 +52,7 @@
                         <td>{{$post->id}}</td>
                         {{-- <td>{{$post->category->title}}</td> --}}
                         <td>{{$post->title}}</td>
+                        <td>{{$post->detail}}</td>
                         <td><img src="{{ asset('imgs/thumb').'/'.$post->thumb }}" width="100" /></td>
                         <td><img src="{{ asset('imgs/full').'/'.$post->full_img }}" width="100" /></td>
                         <td>
