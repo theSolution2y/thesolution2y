@@ -1,18 +1,39 @@
 @extends('layout.layout')
 @section('content')
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellat doloremque eaque totam corporis velit porro aliquid nemo. Repellendus natus similique amet ducimus. Earum repellendus perferendis voluptatem. Ratione nulla voluptatum ut sed ipsam! Sit, architecto cupiditate! Tempore veritatis, illo omnis quaerat praesentium distinctio consectetur quas dicta porro qui saepe quia ipsum consequatur doloremque eum dolores, delectus vel, cumque quos placeat nesciunt harum. In libero quam deleniti animi ut aliquid modi eveniet est totam quod obcaecati sed aliquam fugiat exercitationem, molestias, blanditiis natus nemo reprehenderit praesentium quasi officia! Perspiciatis eos facilis eaque eum cupiditate corrupti alias reprehenderit. Dolor accusantium aperiam sapiente veniam iusto dolore nostrum tenetur. Eaque minima rem aspernatur ratione fugiat fugit, facere amet? Deserunt commodi, aliquam minima necessitatibus aut accusantium nam quos provident, sequi earum nemo amet ad repellat corporis eos doloremque odio fugiat praesentium dolorum, ipsum ipsam saepe. Expedita libero, dolores deleniti cumque adipisci architecto earum quia tempore facere assumenda inventore delectus voluptatum reprehenderit ut aliquid rem nam doloremque ducimus labore exercitationem eum nulla. Non fuga temporibus ex, porro laboriosam ratione enim provident quisquam voluptatibus debitis, quaerat, assumenda accusamus soluta voluptatum ipsam atque quam voluptate. Inventore voluptates quae harum animi corrupti? Provident eaque vitae dolorem unde. Aliquam nemo magnam eveniet doloremque quia? Enim ex facere, vero harum sint deserunt! Unde deleniti hic voluptate eum iste, aut dolor? Similique quaerat accusamus numquam alias repellendus sit aperiam optio nihil eaque obcaecati. Odio, asperiores laudantium. Rem iste officia cupiditate maxime perspiciatis, saepe illo. Aperiam labore, voluptas porro sequi accusantium vitae voluptates laborum? Labore vel harum et, libero ipsam odit nemo officia eaque voluptatibus praesentium minima repudiandae architecto at eligendi corporis laudantium enim. Omnis, asperiores. Incidunt illo animi, debitis nam saepe dolorem minima velit recusandae autem. Sed sunt, dolorum non in laborum maiores eius ullam unde quia quo distinctio est alias, officia minus iusto quis rerum adipisci labore similique hic animi iure. Expedita odio non cupiditate? Ducimus quae omnis itaque? Veniam vel hic molestias architecto! Cumque officiis aperiam eaque earum corrupti veritatis rerum dolorum magnam? Soluta, porro vitae earum, velit sint recusandae distinctio non obcaecati voluptatem voluptate debitis laboriosam asperiores placeat saepe ducimus inventore accusantium nulla suscipit. Non quisquam veniam aliquid incidunt velit quos atque. Sapiente voluptatum aliquam rem officiis quisquam earum amet? Non nobis iste deserunt reprehenderit distinctio numquam laboriosam. Dolorum repudiandae quam sunt rem quaerat? Reiciendis beatae quo voluptate quam inventore illum nostrum provident animi hic nam ipsa voluptates vel in, unde, perferendis odio iure mollitia ab, laboriosam maxime esse deleniti amet fugit. Modi doloremque ducimus enim soluta, laborum fugiat facere nihil temporibus! Esse quas, natus dolorum expedita eius ut omnis non ducimus asperiores cum, soluta odio modi aspernatur voluptatem tempora harum et quo at dolores. Molestiae adipisci dolore, aperiam, maxime placeat porro provident, exercitationem non excepturi nihil rem dolorem suscipit saepe ducimus quisquam labore! Distinctio deleniti dolorum sint soluta vel suscipit sunt, odit, fugit sapiente accusamus accusantium obcaecati expedita ducimus quod nam temporibus quibusdam nisi pariatur impedit aut eius necessitatibus? Eius quis necessitatibus soluta. Vel sed nisi architecto quae.
-        aut eius necessitatius? Eius quis necessitatibus soluta.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, necessitatibus.
-        </p>
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{{asset('frontend')}}/contact.css">
+
+</head>
+<body>
+    <section>
+            <div class="container">
+                <div class="form">
+                    <h2>Contact Us</h2>
+                    <form action="">
+                        <div class="inputBx">
+                            <input type="text" placeholder="Full Name">
+                        </div>
+                        <div class="inputBx">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="inputBx">
+                            <textarea name="message" id="" placeholder="Type Mesage Here..."></textarea>
+                        </div>
+                        <div class="inputBx">
+                            <input type="submit" value="Submit">
+                        </div>
+                        <p class="text">We would get back to you soon</p>
+                        <p class="text">Don't have an account? <a href="#">Click Here</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
 @endsection
