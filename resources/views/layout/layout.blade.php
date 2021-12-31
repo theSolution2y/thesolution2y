@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{asset('icon')}}/css/all.css">
     <link rel="icon" href="{{asset('icon')}}/favicon.ico" type="image/x-icon">
 
-    <title>Layout</title>
+    <title></title>
   </head>
   <body>
    <section>
