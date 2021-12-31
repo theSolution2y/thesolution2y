@@ -38,8 +38,8 @@ Route::resource('/admin/post', PostController::class);
 // user side
 
 
-Route::view('/','home');
-Route::post('/',[ContactController::class,'send']);
+Route::view('/contactus','contact');
+Route::post('/contactus',[ContactController::class,'send']);
 
 Route::get('/layout', function () {
     return view('layout.layout');
