@@ -1,3 +1,4 @@
+@extends('backend.admincheck')
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,32 +13,35 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
         <style>
             body {
-	background: linear-gradient(-25deg, #ee7752, #e73c7e, #fbff00, #23d5ab, #ff00ff);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-}
+	                background: linear-gradient(-25deg, #ee7752, #e73c7e, #fbff00, #23d5ab, #ff00ff);
+	                background-size: 400% 400%;
+	                animation: gradient 15s ease infinite;
+	                height: 100vh;
+                }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-    25%{
-        background-position: 0% 25%;
-    }
-	50% {
-		background-position: 100% 50%;
-	}
-    75% {
-		background-position: 100% 75%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+                @keyframes gradient {
+	                0% {
+		                background-position: 0% 50%;
+	                    }
+                    25%{
+                        background-position: 0% 25%;
+                        }
+	                50% {
+	                	background-position: 100% 50%;
+	                }
+                    75% {
+	                	background-position: 100% 75%;
+	                }
+	                100% {
+	                	background-position: 0% 50%;
+	                }
+                }
         </style>
+
+        
     </head>
     <body class="sb-nav-fixed">
+
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="index.html">theSolution</a>
@@ -58,7 +62,7 @@
                         <li><a class="dropdown-item" href="#!">Settings</a></li>
                         <li><a class="dropdown-item" href="#!">Activity Log</a></li>
                         <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#!">Logout</a></li>
+                        <li><a class="dropdown-item" href="{{url('admin/logout')}}">Logout</a></li>
                     </ul>
                 </li>
             </ul>
