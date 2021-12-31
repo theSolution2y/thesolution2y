@@ -12,7 +12,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
         <style>
             body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-25deg, #ee7752, #e73c7e, #fbff00, #23d5ab, #ff00ff);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
@@ -22,8 +22,14 @@
 	0% {
 		background-position: 0% 50%;
 	}
+    25%{
+        background-position: 0% 25%;
+    }
 	50% {
 		background-position: 100% 50%;
+	}
+    75% {
+		background-position: 100% 75%;
 	}
 	100% {
 		background-position: 0% 50%;
