@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,9 +38,9 @@ Route::resource('/admin/post', PostController::class);
 // user side
 
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::view('/','home');
+Route::post('/',[ContactController::class,'send']);
+
 Route::get('/layout', function () {
     return view('layout.layout');
 });

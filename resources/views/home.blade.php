@@ -14,15 +14,16 @@
             <div class="container">
                 <div class="form">
                     <h2>Contact Us</h2>
-                    <form action="">
+                    <form action="/" method="post">
+                        @csrf
                         <div class="inputBx">
-                            <input type="text" placeholder="Full Name">
+                            <input type="text" name="name" placeholder="Full Name">
                         </div>
                         <div class="inputBx">
-                            <input type="email" placeholder="Email">
+                            <input type="email" name="email" placeholder="Email">
                         </div>
                         <div class="inputBx">
-                            <textarea name="message" id="" placeholder="Type Mesage Here..."></textarea>
+                            <textarea name="message" name="message" placeholder="Type Mesage Here..."></textarea>
                         </div>
                         <div class="inputBx">
                             <input type="submit" value="Submit">
