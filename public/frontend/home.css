@@ -10,7 +10,7 @@
 }
 
 .home::-webkit-scrollbar-track{
-    background-color: #9708CC;
+    background-color: transparent;
 }
 
 .home::-webkit-scrollbar-thumb{
@@ -36,7 +36,7 @@
 
 .home .right p{
     padding: 1.2rem;
-    margin: 0.6 1rem 0 0;
+    margin: 0.6rem 1rem 0 0;
     color: #5f0a87;
 }
 
@@ -51,4 +51,33 @@
 }
 .home .right button:hover{
     box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .home{
+        height: 70vh;
+    }
+
+    .home .left{
+        float: none;
+        height: 30%;
+        width: 100%;
+    }
+    .home .left img{
+        display: block;
+        margin: auto;
+        height: 10rem;
+        width: 8rem;
+    }
+    .home .right{
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+    .home .right button{
+        padding: 0.2rem 0.5rem;
+    }
+    .home::-webkit-scrollbar-track{
+        background-color: #9708CC;
+    }
 }

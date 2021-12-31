@@ -11,7 +11,6 @@
 </head>
 <body>
     <div class="home">
-        <br>
         <div class="left">
             <img src="{{asset('imgs')}}/logo.png" alt="logo">
         </div>
