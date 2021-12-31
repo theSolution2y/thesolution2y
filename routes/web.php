@@ -16,16 +16,30 @@ use App\Http\Controllers\PostController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
 
+// admin side
 Route::get('/admin/login', [AdminController::class, 'login']);
 
 Route::post('/admin/login', [AdminController::class, 'submit_login']);
 
+Route::get('admin/logout',[AdminController::class, 'logout']);
+
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 
+Route::resource('/admin/category', CategoryController::class);
+// to know more use => php aritsan route:list
+
+// post
+Route::get('admin/post/{id}/delete',[PostController::class,'destroy']);
+Route::resource('/admin/post', PostController::class);
+
+// -------------------------------------------------------------------
+// user side
+
+
+Route::get('/', function () {
+    return view('home');
+});
 Route::get('/layout', function () {
     return view('layout.layout');
 });
@@ -38,10 +52,4 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::resource('/admin/category', CategoryController::class);
-// to know more use => php aritsan route:list
 
-
-// post
-Route::get('admin/post/{id}/delete',[PostController::class,'destroy']);
-Route::resource('/admin/post', PostController::class);

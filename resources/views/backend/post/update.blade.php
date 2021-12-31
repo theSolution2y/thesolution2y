@@ -1,4 +1,4 @@
-
+@extends('backend.admincheck')
 <!DOCTYPE html>
 <html lang="en">
 <head>
