@@ -15,4 +15,14 @@ $(document).ready(function(){
       $('.up_slide').hide();    
       $('#ham_close').hide();
     });
+
+    window.addEventListener('mouseup',function(event){
+      if(event.target != ( $('.right_slide') || $('.up_slide'))  ){
+        $('#hamburger').show();
+        $('.right_slide').hide();
+        $('.up_slide').hide();    
+        $('#ham_close').hide();
+      }
+    });
+    
   });
