@@ -40,9 +40,6 @@ Route::resource('/admin/post', PostController::class);
 Route::get('/', function () {
     return view('home');
 });
-Route::get('/layout', function () {
-    return view('layout.layout');
-});
 
 Route::get('/contributor', function () {
     return view('contributor');
