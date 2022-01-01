@@ -17,7 +17,7 @@
    <section>
        <div class="container">
            <header>
-               <a href="#" class="logo">logo</a>
+               <a href="#" class="logo">the<b>S</b>olution2y</a>
            </header>
  
            <section class="content">

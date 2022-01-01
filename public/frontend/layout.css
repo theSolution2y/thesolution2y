@@ -33,17 +33,35 @@ header{
     top:-25px;
     right:20px;
     left:20px;
-    background: rgba(255,255,255,0.05);
+    background: rgba(255,255,255,0.07);
     border-radius: 20px;
-    height: 42px;
+    height: 2.8rem;               
 }
 
 .logo{
-    text-decoration: none;
-    color: rgb(245, 181, 181);                          
-    font-size: 18px;
     margin-left: 2rem;
-    line-height: 2em;
+    line-height: 2.5rem;
+    padding: 0.2rem;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    border-radius: 10px; 
+    font-weight: bold;
+    animation: color 5s ease 0s infinite alternate both;
+}
+@keyframes color {
+    0%{
+        color: #0ACFFE;
+    }
+    25%{
+        color: #0FD850;
+    }
+    50%{
+        color: #E9DEFA;
+    }
+    100%{
+        color: #6713D2;
+    }
 }
 
 .content{
