@@ -32,3 +32,4 @@ class CreateContributorsTable extends Migration
         Schema::dropIfExists('contributors');
     }
 }
+ 

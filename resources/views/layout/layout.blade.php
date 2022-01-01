@@ -42,7 +42,7 @@
                             <hr class="menu_divide_line">
                         </li>
                         <li>                            
-                            <a href="#" target="_blank">
+                            <a href="{{url('contributor')}}" target="_self">
                                 <i class="fas fa-users"></i> 
                                 <span class="nav_menu">Contribute</span>
                             </a>
