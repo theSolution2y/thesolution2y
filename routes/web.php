@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ContributorController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,9 +42,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/contributor', function () {
-    return view('contributor');
-});
+Route::get('/contributor', [ContributorController::class, 'submit']);
+
+Route::post('/contributor', [ContributorController::class, 'store']);
 
 Route::get('/about', function () {
     return view('about');
