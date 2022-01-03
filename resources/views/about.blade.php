@@ -53,7 +53,7 @@
             </span> 
             <!-- <div class="center"> -->
             <span class="card" >
-                <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C4E03AQFO4e9CYS859g/profile-displayphoto-shrink_400_400/0/1626239612453?e=1646265600&v=beta&t=j37TzvuzQGjR9_mRnhs8GhCQboUrfAgotH96xYKOipI" alt="Card image cap">
+                <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C4D03AQE9XdFJ2Hr5ug/profile-displayphoto-shrink_400_400/0/1640953089216?e=1646870400&v=beta&t=oIqX9qBG8eonkPzKYQjiFf-6dh8BV8ZGHvLtoaxZnRc" alt="Card image cap">
                 <div class="card-body">
                     <a href="#" class="btn btn-primary">Ishan chauhan</a>                    
                     <!-- <h5 class="card-title">Ishan chauhan</h5> -->
