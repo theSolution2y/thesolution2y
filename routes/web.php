@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\StudyController;
 use App\Http\Controllers\ContributorController;
 /*
 |--------------------------------------------------------------------------
@@ -50,4 +51,4 @@ Route::get('/about', function () {
     return view('about');
 });
 
-
+Route::get('/study', [StudyController::class, 'study']);
