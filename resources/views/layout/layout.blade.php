@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="{{asset('frontend')}}/layout.css">
     <link rel="stylesheet" href="{{asset('icon')}}/css/all.css">
     <link rel="icon" href="{{asset('icon')}}/favicon.ico" type="image/x-icon">
-
-    <title></title>
   </head>
   <body>
    <section>
