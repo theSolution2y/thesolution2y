@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class ContributorsTable extends Migration
+class CreateContributorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -15,9 +15,9 @@ class ContributorsTable extends Migration
     {
         Schema::create('contributors', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('emailid');
-            $table->string('githubURL');
+            $table->string('name',20);
+            $table->string('email',50);
+            $table->string('githubUrl');
             $table->timestamps();
         });
     }
@@ -32,3 +32,4 @@ class ContributorsTable extends Migration
         Schema::dropIfExists('contributors');
     }
 }
+ 

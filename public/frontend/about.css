@@ -1,0 +1,97 @@
+.aboutus::-webkit-scrollbar {
+    width: 7px;
+}
+.aboutus::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.aboutus::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(135deg, #f12711 10%, #f5af19 100%);
+
+    border-radius: 20px;
+}
+.aboutus::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+
+.aboutus {
+    width: 95%;
+    height: 71vh;
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    overflow-y: scroll;
+}
+.aboutus h1 {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.aboutus p {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    color: #5f0a87;
+}
+#mission {
+    margin-left: 2.2rem;
+    margin-top: 2.3rem;
+}
+.aboutus h2 {
+    margin-left: 1.4rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-style: rgb(21, 255, 0);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+.aboutus .mission {
+    font-size: 1rem;
+}
+
+span {
+    font-size: 1.5rem;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    border-radius: 1.2rem;
+    width: 18rem;
+    margin-bottom: 1rem;
+}
+.card img {
+    border-radius: 50%;
+    padding: 1rem;
+}
+.center {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-right: 1.2rem;
+}
+.card-title,
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    margin-top: 1rem;
+}
+.btn-primary {
+    background: linear-gradient(315deg, #405bf8 0%, #fd249b 74%);
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 333px) {
+    .card {
+        width: 100%;
+    }
+}
