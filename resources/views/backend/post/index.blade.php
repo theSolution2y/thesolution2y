@@ -32,7 +32,7 @@
                       <th>Title</th>
                       <th>Details</th>
                       <th>Image</th>
-                      <th>Full</th>
+                      <th>PDF</th>
                       <th>Action</th>
                     </tr>
                   </thead>
@@ -43,7 +43,7 @@
                       <th>Title</th>
                       <th>Details</th>
                       <th>Image</th>
-                      <th>Full</th>
+                      <th>PDF</th>
                       <th>Action</th>
                     </tr>
                   </tfoot>
@@ -55,7 +55,7 @@
                         <td>{{$post->title}}</td>
                         <td>{{$post->detail}}</td>
                         <td><img src="{{ asset('imgs/thumb').'/'.$post->thumb }}" width="100" /></td>
-                        <td><img src="{{ asset('imgs/full').'/'.$post->full_img }}" width="100" /></td>
+                        <td><a href="{{ asset('public/files').'/'.$post->pdf_path }}" target="_blank">{{$post->pdf_path}}</a></td>
                         <td>
                           <a class="btn btn-info btn-sm" href="{{url('admin/post/'.$post->id.'/edit')}}">Update</a>
                           <a onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-sm" href="{{url('admin/post/'.$post->id.'/delete')}}">Delete</a>
