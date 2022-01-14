@@ -1,155 +1,217 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
+body {
     height: 100vh;
 }
-section{
+section {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     height: 100%;
-    background: url('https://res.cloudinary.com/practicaldev/image/fetch/s--_MCEk7P6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vm957e5dm3hxnwc94dd7.jpg');
+    background: url("https://res.cloudinary.com/practicaldev/image/fetch/s--_MCEk7P6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vm957e5dm3hxnwc94dd7.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding: 3.2;
 }
 
-.container{
+.container {
     position: relative;
-    min-height: calc(100vh  280px);
+    min-height: calc(100vh 280px);
     min-height: 82vh;
-    background: rgba(255,255,255,0.05);
-    box-shadow: 0 15px 35px rgba(255,255,255,0.05);
-    border-radius: 20px;        
-}
-
-header{
-    position:absolute;
-    top:-25px;
-    right:20px;
-    left:20px;
-    background: rgba(255,255,255,0.07);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.05);
     border-radius: 20px;
-    height: 2.8rem;               
 }
 
-.logo{
+:root {
+    --color: rgba(255, 255, 255, 0.07);
+}
+header {
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    left: 20px;
+    background: var(--color);
+    border-radius: 20px;
+    height: 2.8rem;
+}
+header span {
+    float: right;
+    line-height: 60px;
+    font-size: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    color: #2c3e50;
+}
+header span:hover {
+    color: #fff;
+    transition: 0.4s;
+}
+#choose_color{
+    z-index: 10000;
+}
+.backgroundcolors {
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    width: 103px;
+    position: fixed;
+    right: 8rem;
+    top: 6.1rem;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 10000;
+}
+
+.colors {
+    list-style: none;
+    width: 40px;
+    height: 30px;
+    margin: 17px auto;
+    margin-right: 5rem;
+    border-radius: 50%;
+    border: 2px solid rgb(20, 19, 19);
+    cursor: pointer;
+}
+
+#blue {
+    background: cyan;
+}
+#red {
+    background: red;
+}
+#purple {
+    background: purple;
+}
+#yellow {
+    background: yellow;
+}
+#orange {
+    background: orange;
+}
+#green {
+    background: green;
+}
+#black {
+    background: black;
+}
+#default {
+    background: url("https://res.cloudinary.com/practicaldev/image/fetch/s--_MCEk7P6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vm957e5dm3hxnwc94dd7.jpg");
+}
+
+.logo {
     margin-left: 2rem;
     line-height: 2.5rem;
     padding: 0.2rem;
     font-size: 23px;
     letter-spacing: 1.5px;
     text-decoration: none;
-    border-radius: 10px; 
+    border-radius: 10px;
     font-weight: bold;
     animation: color 5s ease 0s infinite alternate both;
 }
 @keyframes color {
-    0%{
-        color: #0ACFFE;
+    0% {
+        color: #0acffe;
     }
-    25%{
-        color: #0FD850;
+    25% {
+        color: #0fd850;
     }
-    50%{
-        color: #E9DEFA;
+    50% {
+        color: #e9defa;
     }
-    100%{
-        color: #6713D2;
+    100% {
+        color: #6713d2;
     }
 }
 
-.content{
-    background: rgba(255,255,255,0.05);
+.content {
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 20px;
     max-height: 100%;
     line-height: 1.6rem;
     margin-top: 1.8rem;
 }
 
-footer{
-    position:absolute;
-    bottom:-25px;
-    right:20px;
-    left:20px;
-    background: rgba(255,255,255,0.05);
+footer {
+    position: absolute;
+    bottom: -25px;
+    right: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 20px;
     height: 55px;
 }
 
-footer #hamburger,#ham_close{
+footer #hamburger,
+#ham_close {
     font-size: 20px;
     margin-left: 10px;
     padding: 10px;
     cursor: pointer;
-    color: rgb(0, 0, 0);                          
+    color: rgb(0, 0, 0);
 }
 
-footer #hamburger{
+footer #hamburger {
     position: relative;
     top: 10px;
     left: -2px;
 }
 
-footer .up_slide{
+footer .up_slide {
     position: absolute;
     bottom: 70px;
-    left:-10px;
-    background: rgba(255,255,255,0.1);
-    box-shadow: 0 0.5rem 2rem rgba(255,255,255,0.2);
+    left: -10px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.2);
     width: 150px;
 }
 
-footer ul li{
+footer ul li {
     list-style: none;
     margin-top: 1rem;
 }
 
-footer .up_slide ul li a{
-    color: rgb(0, 0, 0);                          
+footer .up_slide ul li a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0.5rem;
 }
-footer ul li a:hover{
-    background: rgba(255,255,255,0.05);
+footer ul li a:hover {
+    background: rgba(255, 255, 255, 0.05);
 }
 
-footer li a .nav_menu{
+footer li a .nav_menu {
     font-size: 12px;
 }
 
-footer .up_slide li .menu_divide_line{
+footer .up_slide li .menu_divide_line {
     color: blue;
     height: 2px;
     background: #5da6ff;
     border-radius: 8px;
-    box-shadow: 0 0 15px #5da6ff, 
-                0 0 30px #5da6ff, 
-                0 0 45px #5da6ff,
-                0 0 60px #5da6ff;
+    box-shadow: 0 0 15px #5da6ff, 0 0 30px #5da6ff, 0 0 45px #5da6ff,
+        0 0 60px #5da6ff;
 }
 
-footer .right_slide ul{
+footer .right_slide ul {
     display: inline-flex;
     margin: 0.1rem;
     padding: 0.3rem;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
-footer .right_slide ul li{
+footer .right_slide ul li {
     margin: 0 20px;
     font-size: 18px;
-    background: rgba(255,255,255,0.1);
-    box-shadow: 0 0.5rem 2rem rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.2);
     padding: 0.5rem;
 }
 
-footer .right_slide ul li a{
-    color:rgb(0, 0, 0);
+footer .right_slide ul li a {
+    color: rgb(0, 0, 0);
 }
-

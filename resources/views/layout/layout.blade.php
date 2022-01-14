@@ -14,10 +14,23 @@
     <title>Layout</title>
   </head>
   <body>
-   <section>
+   <section id="bgColor">
        <div class="container">
            <header>
                <a href="#" class="logo">the<b>S</b>olution2y</a>
+               <span>
+                   <i id="choose_color" class="fas fa-palette"></i>
+                   <ul class="backgroundcolors">
+                       <li class="colors" id="blue"></li>
+                       <li class="colors" id="red"></li>
+                       <li class="colors" id="purple"></li>
+                       <li class="colors" id="yellow"></li>
+                       <li class="colors" id="orange"></li>
+                       <li class="colors" id="green"></li>
+                       <li class="colors" id="black"></li>
+                       <li class="colors" id="default"></li>
+                   </ul>
+               </span>
            </header>
  
            <section class="content">
