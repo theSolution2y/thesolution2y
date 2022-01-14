@@ -28,7 +28,6 @@ Route::get('admin/logout',[AdminController::class, 'logout']);
 
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 
-
 Route::resource('/admin/category', CategoryController::class);
 // to know more use => php aritsan route:list
 
@@ -45,9 +44,6 @@ Route::get('/', function () {
 });
 
 Route::get('/contributor', [ContributorController::class, 'submit']);
-Route::get('/login', function () {
-    return view('login');
-});
 
 Route::post('/contributor', [ContributorController::class, 'store']);
 
