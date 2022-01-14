@@ -50,5 +50,8 @@ Route::post('/contributor', [ContributorController::class, 'store']);
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/login', function () {
+    return view('login');
+});
 
 Route::get('/study', [StudyController::class, 'study']);

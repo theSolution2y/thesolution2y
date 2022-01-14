@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="{{asset('frontend')}}/layout.css">
     <link rel="stylesheet" href="{{asset('icon')}}/css/all.css">
     <link rel="icon" href="{{asset('icon')}}/favicon.ico" type="image/x-icon">
-
-    <title>Layout</title>
   </head>
   <body>
    <section id="bgColor">
@@ -80,6 +78,13 @@
                             <a href="#" target="_blank">
                                 <i class="fas fa-info-circle"></i> 
                                 <span class="nav_menu">About</span>
+                            </a>
+                            <hr class="menu_divide_line">
+                        </li>
+                        <li>                            
+                            <a href="{{url('login')}}" target="_self">
+                                <i class="fas fa-id-badge"></i> 
+                                <span class="nav_menu">SignUp/LogIn</span>
                             </a>
                         </li>
                     </ul>
