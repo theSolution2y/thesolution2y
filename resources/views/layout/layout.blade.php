@@ -71,8 +71,9 @@
                         <li>                           
                             <a href="{{url('login')}}" target="_self">
                                 <i class="fas fa-info-circle"></i> 
-                                <span class="nav_menu">Login/SignUp</span>
+                                <span class="nav_menu">Login/Signup</span>
                             </a>
+                            <hr class="menu_divide_line">
                         </li>
                     </ul>
                 </span>
