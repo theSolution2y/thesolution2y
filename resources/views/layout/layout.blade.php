@@ -69,7 +69,7 @@
                             <hr class="menu_divide_line">
                         </li>
                         <li>                           
-                            <a href="{{url('login')}}" target="_self" >
+                            <a href="{{url('login')}}" target="_self">
                                 <i class="fas fa-info-circle"></i> 
                                 <span class="nav_menu">Login/SignUp</span>
                             </a>

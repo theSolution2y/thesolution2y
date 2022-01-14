@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SignUp/ LogIn</title>
+	<title>SignUp/LogIn</title>
 	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('frontend')}}/login.css">
