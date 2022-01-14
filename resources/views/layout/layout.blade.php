@@ -73,7 +73,6 @@
                                 <i class="fas fa-id-badge"></i> 
                                 <span class="nav_menu">SignUp/LogIn</span>
                             </a>
-                            <hr class="menu_divide_line">
                         </li>
                     </ul>
                 </span>
