@@ -66,6 +66,13 @@
                                 <i class="fas fa-info-circle"></i> 
                                 <span class="nav_menu">About</span>
                             </a>
+                            <hr class="menu_divide_line">
+                        </li>
+                        <li>                           
+                            <a href="{{url('login')}}" target="_blank">
+                                <i class="fas fa-info-circle"></i> 
+                                <span class="nav_menu">Login/SignUp</span>
+                            </a>
                         </li>
                     </ul>
                 </span>
