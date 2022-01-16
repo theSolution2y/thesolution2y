@@ -24,8 +24,14 @@
 }
 
 .home .left img{
-    width: 100%;
-    height: 70%;
+    width: 80%;
+    height: 40%;
+    margin: 4.5rem 0 0 0.5rem;
+    transition: all 1.5s linear;
+}
+
+.home .left img:hover{
+    filter: hue-rotate(360deg);
 }
 
 .home .right{
@@ -35,7 +41,7 @@
 }
 
 .home .right p{
-    padding: 1.2rem;
+    padding: 1.2rem 0;
     margin: 0.6rem 1rem 0 0;
     color: #5f0a87;
 }
@@ -65,9 +71,9 @@
     }
     .home .left img{
         display: block;
-        margin: auto;
-        height: 10rem;
-        width: 8rem;
+        margin: 0.5rem auto;
+        height: 8rem;
+        width: 7rem;
     }
     .home .right{
         float: none;
