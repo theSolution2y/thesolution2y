@@ -7,6 +7,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\StudyController;
 use App\Http\Controllers\ContributorController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,6 +39,8 @@ Route::resource('/admin/post', PostController::class);
 // -------------------------------------------------------------------
 // user side
 
+Route::view('/contactus','contact');
+Route::post('/contactus',[ContactController::class,'send']);
 
 Route::get('/', function () {
     return view('home');
