@@ -1,5 +1,5 @@
 @extends('layout.layout')
-@section('read')
+@section('content')
 <!DOCTYPE html>
  <html lang="en">
  <head>

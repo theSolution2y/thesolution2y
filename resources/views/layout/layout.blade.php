@@ -35,14 +35,6 @@
                @yield('content')
            </section>
 
-           <section class="study">
-               @yield('study')
-           </section>
-
-           <section class="read">
-               @yield('read')
-           </section>
-
            <footer>
                 <span class="up_slide">
                     <ul>
