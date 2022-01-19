@@ -12,20 +12,20 @@ class ContributorController extends Controller
     }
 
     public function store(Request $request){
-        $request->validate([
-            'name'=>'required',
-            'email'=>'required',
-            'githubUrl'=>'required'
-        ]);
+        // $request->validate([
+        //     'name'=>'required',
+        //     'email'=>'required',
+        //     'githubUrl'=>'required'
+        // ]);
 
         $contributor = new Contributor;
 
         $contributor->name = $request->name;
         $contributor->email = $request->email;
-        $contributor->githubUrl = $request->githubUrl;
+        $contributor->githubUrl = $request->github;
 
         $contributor->save();
 
-        return redirect('/contributor') -> with('sucess', 'Form has been submitted');
+        return redirect('/contributor') -> with('success', 'Form has been submitted');
     }
 }
