@@ -46,8 +46,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/contributor', [ContributorController::class, 'submit']);
-
+Route::view('/contributor','contributor');
 Route::post('/contributor', [ContributorController::class, 'store']);
 
 Route::get('/about', function () {

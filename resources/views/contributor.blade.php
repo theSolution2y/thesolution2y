@@ -1,38 +1,26 @@
-@extends('layout.layout')
-@section('content')
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="{{asset('frontend')}}/contributor.css">
-    </head>
-    <body>
-        <section>
-            <form action="/contributor" method="POST" enctype="multipart/form-data">
-            @csrf
-                <div class="container1">
-                    <h3>Contributor Form</h3>
-                     <div class="head">  
-                         <label for="name">Name</label><br>
-                        <input type="text" placeholder="Enter your name" id="name" required>
-                     </div>         
+<head>
+	<title>Contributor Form</title>
+	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('frontend')}}/contributor.css">
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
 
-                  <div class="head"> 
-                    <label for="email">Email</label><br>
-                        <input type="text" placeholder="Enter your Email" id="email" required>
-                  </div>      
-
-                  <div class="head">
-                         <label for="github">Github Profile URL</label><br>
-                        <input type="URL" placeholder="Enter your Gihub Profile URL" id="github" required>
-                    </div>                     
-                </div>   
-                <div class="submit-btn">
-                    <button class="submit">Submit</button> 
-                </div>        
-            </form>         
-        </section>
-    </body>
+			<div class="login">
+				<form action="/contributor" method="post">
+                @csrf
+                    <label for="chk" aria-hidden="true">Contributor Form</label>
+					<input type="text" name="name" placeholder="User name" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="url" name="url" placeholder="Github Profile " required="">
+					<button>Submit</button>
+				</form>
+			</div>
+	</div>
+</body>
 </html>
-@endsection

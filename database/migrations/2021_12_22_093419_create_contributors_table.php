@@ -17,7 +17,7 @@ class CreateContributorsTable extends Migration
             $table->id();
             $table->string('name',20);
             $table->string('email',50);
-            $table->string('githubUrl');
+            $table->string('url');
             $table->timestamps();
         });
     }
