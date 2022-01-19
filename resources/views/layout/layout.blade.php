@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="{{asset('frontend')}}/layout.css">
     <link rel="stylesheet" href="{{asset('icon')}}/css/all.css">
     <link rel="icon" href="{{asset('icon')}}/favicon.ico" type="image/x-icon">
+
+    <!-- font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    
   </head>
   <body>
    <section id="bgColor">
@@ -47,40 +53,40 @@
                 <span class="up_slide">
                     <ul>
                         <li>
-                            <a href="#" target="_blank">
+                            <a href="{{url('/')}}" target="_self">
                                 <i class="fas fa-home"></i> 
                                 <span class="nav_menu">Home</span> 
                             </a>
-                            <hr class="menu_divide_line">
                         </li>
+                        <hr class="menu_divide_line">
                         <li>
-                            <a href="#" target="_blank">
+                            <a href="{{url('study')}}" target="_self">
                                 <i class="fab fa-leanpub"></i> 
                                 <span class="nav_menu">Study</span>
                             </a>
-                            <hr class="menu_divide_line">
                         </li>
+                        <hr class="menu_divide_line">
                         <li>                            
                             <a href="{{url('contributor')}}" target="_self">
                                 <i class="fas fa-users"></i> 
                                 <span class="nav_menu">Contribute</span>
                             </a>
-                            <hr class="menu_divide_line">
                         </li>
+                        <hr class="menu_divide_line">
                         <li>                            
-                            <a href="#" target="_blank">
+                            <a href="{{url('contactus')}}" target="_self">
                                 <i class="fas fa-id-badge"></i> 
                                 <span class="nav_menu">Contact Us</span>
                             </a>
                             <hr class="menu_divide_line">
                         </li>
                         <li>                           
-                            <a href="#" target="_blank">
+                            <a href="{{url('about')}}" target="_self">
                                 <i class="fas fa-info-circle"></i> 
                                 <span class="nav_menu">About</span>
                             </a>
-                            <hr class="menu_divide_line">
                         </li>
+                        <hr class="menu_divide_line">
                         <li>                            
                             <a href="{{url('login')}}" target="_self">
                                 <i class="fas fa-id-badge"></i> 
@@ -95,28 +101,28 @@
                 
                 <span class="right_slide">
                     <ul>
-                        <li>
+                        <!-- <li>
                             <a href="#" target="_blank">
                                 <i class="fab fa-facebook"></i>
                             </a>
-                        </li>
+                        </li> -->
                         <li>
-                            <a href="#" target="_blank">
+                            <a href="https://www.instagram.com/thesolution2y/" target="_blank">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
+                            <a href="https://github.com/theSolution2y" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="#" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                        </li>
+                        </li> -->
                         <li>
-                            <a href="#" target="_blank">
+                            <a href="https://twitter.com/thesolution2y?t=sM-ZVddAPQZPnpsRRs7nRQ&s=15" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </li>
