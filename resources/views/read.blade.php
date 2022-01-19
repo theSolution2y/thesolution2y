@@ -10,11 +10,13 @@
      <link rel="stylesheet" href="{{asset('frontend')}}/reading.css">
  </head>
  <body>
-    <div style="width: 20%; float:left; height:100px; background:yellow; ">
-        Hello
+    <div class="chapter">
+        <p><b>Chapters will be shown here.</b></p>
     </div>
-    <div style="width: 80%; float:left; height:100px; background:yellow;">
-        World
+    <div class="pdfs">
+        <p>PDFs</p>
+        <p>will be</p>
+        <p>shown here.</p>
     </div>
  </body>
  </html>

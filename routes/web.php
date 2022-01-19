@@ -52,3 +52,5 @@ Route::get('/about', function () {
 });
 
 Route::get('/study', [StudyController::class, 'study']);
+
+Route::get('study/{id}/read',[StudyController::class, 'read']);

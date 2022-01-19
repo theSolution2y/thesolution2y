@@ -37,3 +37,28 @@
     overflow-y: scroll;      
 }
 
+.chapter{
+  width: 20%; 
+  max-width: 20%; 
+  float:left; 
+  height: 79vh; 
+  display:flex;
+  align-items: center;
+  }
+
+.chapter p{
+  padding-left: 2%; 
+  opacity: 1;
+}
+
+.pdfs{
+  width: 75%; 
+  float:left; 
+  height:79vh; 
+  background:white;
+}
+
+.pdfs p{
+  padding-left: 2%;
+  text-align: center;
+}
