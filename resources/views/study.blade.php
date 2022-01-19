@@ -1,5 +1,5 @@
 @extends('layout.layout')
-@section('study')
+@section('content')
 <!DOCTYPE html>
  <html lang="en">
  <head>
@@ -9,7 +9,7 @@
      <title>Study</title>
      <link rel="stylesheet" href="{{asset('frontend')}}/reading.css">
  </head>
- <body>
+ <body style="background:none;">
     <div class="catsec">
         <div class="chip">
             @foreach ($cats as $stud)
