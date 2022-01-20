@@ -36,7 +36,7 @@
                 <td><input type="text" name="detail" class="form-control" /></td>
             </tr>
             <tr>
-                <th>Image</th>
+                <th>PDF</th>
                 <td><input type="file" name="cat_image" /></td>
             </tr>
             <tr>

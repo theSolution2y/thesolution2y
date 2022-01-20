@@ -28,28 +28,20 @@
                 <thead>
                     <tr>
                         <th scope="col">Id</th>
-                        <th>Title</th>
+                        <th>Title</th>  
                         <th>Details</th>
-                        <th>Image</th>
+                        <th>PDF</th>
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tfoot>
-                    <tr>
-                        <th>Id</th>
-                        <th>Title</th>
-                        <th>Details</th>
-                        <th>Image</th>
-                        <th>Action</th>
-                    </tr>
-                </tfoot>
+
                 <tbody>
                     @foreach ($data as $cat )
                         <tr>
                             <td>{{$cat->id}}</td>
                             <td>{{$cat->title}}</td>
                             <td>{{$cat->detail}}</td>
-                            <td><img src="{{asset('imgs').'/'.$cat->image}}" width="100" />
+                            <td><a href="{{asset('imgs').'/'.$cat->image}}" type="URL" target="_blank">{{asset('imgs').'/'.$cat->image}}</a>
                         </td>
                             <td>
                                 <a href="{{url('admin/category/'.$cat->id.'/edit')}}">Update</a>
