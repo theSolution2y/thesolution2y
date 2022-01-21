@@ -30,6 +30,7 @@ Route::get('admin/logout',[AdminController::class, 'logout']);
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 
 Route::resource('/admin/category', CategoryController::class);
+Route::get('admin/category/delete/{id}',[CategoryController::class,'delete']);
 // to know more use => php aritsan route:list
 
 // post
