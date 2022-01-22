@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('frontend')}}/contact.css">
 </head>
 <body>
-    <section>
+    <section id="contactsection">
         <div class="color"></div>
         <div class="color"></div>
         <div class="color"></div>
