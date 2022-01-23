@@ -70,8 +70,9 @@
                                 <i class="fas fa-id-badge"></i> 
                                 <span class="nav_menu">Contact Us</span>
                             </a>
-                            <hr class="menu_divide_line">
+                           
                         </li>
+                        <hr class="menu_divide_line">
                         <li>                           
                             <a href="{{url('about')}}" target="_self">
                                 <i class="fas fa-info-circle"></i> 

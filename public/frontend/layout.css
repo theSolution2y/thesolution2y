@@ -215,3 +215,74 @@ footer .right_slide ul li {
 footer .right_slide ul li a {
     color: rgb(0, 0, 0);
 }
+
+@media screen and (max-width: 330px) {
+    #ham_close {
+        position: relative;
+        bottom: -16px;
+    }
+    footer li a .nav_menu {
+        font-size: 10px;
+    }
+    footer ul li {
+     height: 5px;
+     margin-left: -16px;
+    }
+    footer .right_slide ul li {
+        padding: 8.5px;
+        position: relative;
+       bottom: 20px;
+        left: 26px;
+    }
+    footer .right_slide ul li {
+        height: 33px;
+        font-size: 15px;
+        box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.2);
+        margin: 02px 23px;
+    }
+    footer .up_slide {
+        font-size: 13px;
+    }
+    .home .right p{
+        font-size: 12px;
+        padding-left: 12px;
+    }
+    .home .right {
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 381px) and (min-width:331px) {
+    #ham_close {
+        position: relative;
+        bottom: -10px;
+    }
+    footer li a .nav_menu {
+        font-size: 12px;
+    }
+    footer ul li {
+     height: 6px;
+     margin-left: -14px;
+    }
+    footer .right_slide ul li {
+        padding: 8.5px;
+        position: relative;
+       bottom: 30px;
+        left: 20px;
+    }
+    footer .right_slide ul li {
+        height: 30px;
+        font-size: 15px;
+        box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.2);
+        margin: 02px 31px;
+    }
+    footer .up_slide {
+        font-size: 14px;
+        left:-24px;
+    }
+    
+    .home .right p{
+        font-size: 14px;
+       
+    }
+}
