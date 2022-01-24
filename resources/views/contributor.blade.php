@@ -8,33 +8,34 @@
         <link rel="stylesheet" type="text/css" href="{{asset('frontend')}}/contributor.css">
     </head>
     <body>
-        <section>
+           <section>
             <form action="/contributor" method="POST" enctype="multipart/form-data">
             @csrf
-                <div class="container1">
+                <div class="login-box">
                     <h3>Contributor Form</h3>
-                    <table class="table table-bordered">
-                        <tr>
-                            <th>Name</th>
-                            <td><input type="text" name="name" class="form-control" /></td>
-                        </tr>
-                        <tr>
-                            <th>Email</th>
-                            <td><input type="text" name="email" class="form-control" /></td>
-                        </tr>
-                        <tr>
-                            <th>GitHub Url</th>
-                            <td><input type="text" name="github" class="form-control" /></td>
-                        </tr>
+                 
+                <div class="user-box">
+                    <input type="text" name="" required="">
+                    <label>Username</label>
+                </div>
+                   <div class="user-box">
+                         <input type="password" name="" required="">
+                         <label>Email</label>
+                    </div>
+                    <div class="user-box">
+                         <input type="password" name="" required="">
+                         <label>Github URL</label>
+                </div>
+                       
                         <tr>
                             <td colspan="2">
                                 <input type="submit" class="btn btn-primary" />
                             </td>
                         </tr>
-                    </table>
+                        </section>
                      
             </form>         
-        </section>
+      
     </body>
 </html>
 @endsection
