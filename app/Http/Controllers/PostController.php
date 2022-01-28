@@ -116,24 +116,29 @@ class PostController extends Controller
         ]);
 
         // Post Thumbnail
-        if($request->hasFile('post_thumb')){
-            $image1=$request->file('post_thumb');
-            $reThumbImage=time().'.'.$image1->getClientOriginalExtension();
-            $dest1=public_path('/imgs/thumb');
-            $image1->move($dest1,$reThumbImage);
-        }else{
-            $reThumbImage=$request->post_thumb;
-        }
+        // if($request->hasFile('post_thumb')){
+        //     $image1=$request->file('post_thumb');
+        //     $reThumbImage=time().'.'.$image1->getClientOriginalExtension();
+        //     $dest1=public_path('/imgs/thumb');
+        //     $image1->move($dest1,$reThumbImage);
+        // }else{
+        //     $reThumbImage=$request->post_thumb;
+        // }
 
         // Post Full Image
         if($request->hasFile('post_image')){
             $image2=$request->file('post_image');
             $reFullImage=time().'.'.$image2->getClientOriginalExtension();
-            $dest2=public_path('/imgs/full');
+            $dest2=public_path('/pdf');
             $image2->move($dest2,$reFullImage);
         }else{
             $reFullImage=$request->post_image;
         }
+
+        // Post Pdf_File
+        $validatedData = $request -> validate([
+            'file' => 'required|txt,pdf',
+        ]);
 
         $post=Post::find($id);
         $post->cat_id=$request->category;

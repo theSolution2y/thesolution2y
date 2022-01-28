@@ -43,12 +43,8 @@
                 <td><input type="text" name="title" class="form-control" /></td>
             </tr>
             <tr>
-                <th>Thumbnail</th>
+                <th>PDF</th>
                 <td><input type="file" name="post_thumb" /></td>
-            </tr>
-            <tr>
-                <th>Post Image</th>
-                <td><input type="file" name="post_image" /></td>
             </tr>
             <tr>
                 <th>Detail<span class = "text-danger"> *</span></th>
