@@ -21,20 +21,22 @@
    <section id="bgColor">
        <div class="container">
            <header>
-               <a href="#" class="logo">the<b>S</b>olution2y</a>
-               <span>
-                   <i id="choose_color" class="fas fa-palette"></i>
-                   <ul class="backgroundcolors">
-                       <li class="colors" id="blue"></li>
-                       <li class="colors" id="red"></li>
-                       <li class="colors" id="purple"></li>
-                       <li class="colors" id="yellow"></li>
-                       <li class="colors" id="orange"></li>
-                       <li class="colors" id="green"></li>
-                       <li class="colors" id="black"></li>
-                       <li class="colors" id="default"></li>
-                   </ul>
-               </span>
+           <nav class="navbar">
+                <ul class="nav_menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Contribute</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                <div class="logo">
+                    <a href="#">
+                        <h3>theSolution<span>2y</span></h3>
+                    </a>
+                    <img src="" alt="logo">
+                </div>
+            </nav>
+               
            </header>
  
            <section class="content">
@@ -42,85 +44,11 @@
            </section>
 
            <footer>
-                <span class="up_slide">
-                    <ul>
-                        <li>
-                            <a href="{{url('/')}}" target="_self">
-                                <i class="fas fa-home"></i> 
-                                <span class="nav_menu">Home</span> 
-                            </a>
-                        </li>
-                        <hr class="menu_divide_line">
-                        <li>
-                            <a href="{{url('study')}}" target="_self">
-                                <i class="fab fa-leanpub"></i> 
-                                <span class="nav_menu">Study</span>
-                            </a>
-                        </li>
-                        <hr class="menu_divide_line">
-                        <li>                            
-                            <a href="{{url('contributor')}}" target="_self">
-                                <i class="fas fa-users"></i> 
-                                <span class="nav_menu">Contribute</span>
-                            </a>
-                        </li>
-                        <hr class="menu_divide_line">
-                        <li>                            
-                            <a href="{{url('contactus')}}" target="_self">
-                                <i class="fas fa-id-badge"></i> 
-                                <span class="nav_menu">Contact Us</span>
-                            </a>
-                           
-                        </li>
-                        <hr class="menu_divide_line">
-                        <li>                           
-                            <a href="{{url('about')}}" target="_self">
-                                <i class="fas fa-info-circle"></i> 
-                                <span class="nav_menu">About</span>
-                            </a>
-                        </li>
-                        <hr class="menu_divide_line">
-                        <li>                            
-                            <a href="{{url('login')}}" target="_self">
-                                <i class="fas fa-id-badge"></i> 
-                                <span class="nav_menu">SignUp/LogIn</span>
-                            </a>
-                        </li>
-                    </ul>
-                </span>
-
-                <span id="hamburger"> <i class="fas fa-bars"></i> </span>
-                <span id="ham_close"> <i class="fas fa-times"></i> </span>
-                
-                <span class="right_slide">
-                    <ul>
-                        <!-- <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                        </li> -->
-                        <li>
-                            <a href="https://www.instagram.com/thesolution2y/" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/theSolution2y" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <!-- <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li> -->
-                        <li>
-                            <a href="https://twitter.com/thesolution2y?t=sM-ZVddAPQZPnpsRRs7nRQ&s=15" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </span>
+           <div class="icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
            </footer>
        </div>
    </section>
