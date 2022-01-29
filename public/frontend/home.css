@@ -1,94 +1,37 @@
-.home{
-    height: 71.5vh;
-    width: 100%;
-    background: rgba(255,255,255,0.01);
-    overflow-y: scroll;
+
+.left{
+    display: flex;
+    justify-content: center;
+    
 }
-
-.home::-webkit-scrollbar{
-    width: 10px;
+.left img{
+    height: 12rem;
+    width: 11rem;
+    margin-top: 2.5rem;
 }
-
-.home::-webkit-scrollbar-track{
-    background-color: transparent;
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight:bold;
 }
-
-.home::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(135deg, #f12711 10%, #f5af19 100%);
+.right p{
+    color: white;
 }
-
-.home .left{
-    height: 100%;
-    width: 15%;
-    float: left;
+button{
+    background:rgb(105, 83, 231);
+    font-size: 1.3rem;
+    border-radius: 20px;
+    padding:0.6rem;
+    width: 11rem;
+    height: 3rem;
+    border:2px solid white;
 }
+#button{
+    display: flex;
+    justify-content: center;
 
-.home .left img{
-    width: 80%;
-    height: 40%;
-    margin: 4.5rem 0 0 0.5rem;
-    transition: all 1.5s linear;
 }
-
-.home .left img:hover{
-    filter: hue-rotate(360deg);
-}
-
-.home .right{
-    float: right;
-    height: 100%;
-    width: 85%;
-}
-
-.home .right p{
-    padding: 1.2rem 0.6rem;
-    margin: 0.6rem 1rem 0 0;
-    color: #5f0a87;
-}
-
-.home .right button{
-    display: block;
-    margin: 1rem auto;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    border: none;
-    background: linear-gradient(to right, #ff5858, #f857a6);
-    border-radius: 8px;
-}
-
-.home .right button:hover{
-    box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
-}
-
-.home .right a{
-    color: black;
-}
-
-@media only screen and (min-width:320px) and (max-width:768px) {
-    .home{
-        height: 70vh;
-    }
-
-    .home .left{
-        float: none;
-        height: 30%;
-        width: 100%;
-    }
-    .home .left img{
-        display: block;
-        margin: 0.5rem auto;
-        height: 8rem;
-        width: 7rem;
-    }
-    .home .right{
-        float: none;
-        margin: auto;
-        width: 100%;
-    }
-    .home .right button{
-        padding: 0.2rem 0.5rem;
-    }
-    .home::-webkit-scrollbar-track{
-        background-color: #9708CC;
-    }
+button a{
+    color:white;
 }
