@@ -28,7 +28,10 @@
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Contribute</a></li>
                     <li><a href="#">About Us</a></li>
-                </ul>
+                </ul> 
+                <div>
+                    <button id="signup">SignUp</button>
+                </div>
                 <div class="logo">
                     <a href="#">
                         <h3>theSolution2y</h3>

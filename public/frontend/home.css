@@ -5,11 +5,11 @@
     
 }
 .left img{
-    height: 12rem;
+    height: 14rem;
     width: 11rem;
     margin-top: 2.5rem;
 }
-h1{
+h1{ 
     display: flex;
     justify-content: center;
     color: white;
@@ -19,13 +19,16 @@ h1{
     color: white;
 }
 button{
-    background:rgb(105, 83, 231);
+    background: linear-gradient(135deg ,rgba(52,90,164,1), rgba(63,0,156,0.92));
     font-size: 1.3rem;
-    border-radius: 20px;
-    padding:0.6rem;
+    border-radius: 12px;
+    padding:0.5rem;
     width: 11rem;
     height: 3rem;
     border:2px solid white;
+}
+button a:hover{
+    color: white;
 }
 #button{
     display: flex;

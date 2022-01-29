@@ -10,7 +10,7 @@ body {
 .content{
     height: 71.5vh; 
     height: 75vh;
-    width: 62%;
+    width: 73%;
     margin:auto;
 
 }
@@ -21,7 +21,7 @@ body {
     background-size: cover;
 }
 
-header{
+header{ 
     display: flex;
     
     box-shadow: 2px solid rgb(98, 98, 245);
@@ -36,9 +36,9 @@ header{
     list-style: none;
     padding-left: 1rem;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     align-items: center;
-    margin-left: 5rem;
+    margin-left: -2rem;
 }
 
 .nav_menu li {
@@ -62,27 +62,22 @@ header{
     border-bottom: 0.2rem solid white;
 }
 
-#signup{
-    position: absolute;
-    top: 5rem;
-    right: 3rem;
-    border-radius: 10%;
-    z-index: 1000;
-    background-color: aqua;
-}
 .logo{
     display: flex;
-    padding-right: 2rem;
+    padding-right: 0rem;
+    margin-right: -5rem;
+    margin-top:-1.3rem;
 }
 .logo img{
-    height: 5.5rem;
+    height: 7rem;
     width: 5rem;
     position: absolute;
-    top:1.2rem;
-    right: 0rem;
+    top:0.2rem;
+    right: -7rem;
 }
 .logo a {
     text-decoration: none;
+    font-family: 'Exo', sans-serif;
 }
 .logo a h3 {
     margin-top: 2rem;
@@ -91,10 +86,10 @@ header{
     font-weight: bold;
 }
 .icons{
-position: absolute;
-left: 45%;
-bottom:2rem;
-right:1rem;
+    position: absolute;
+    left: 45%;
+    bottom:2rem;
+    right:1rem;
 }
 .icons a{
     color: black;
@@ -107,7 +102,9 @@ right:1rem;
     width: 5rem;
 }
 #signup{
-    position:absolute;
-    top: 2rem;
-
+    position: absolute;
+    border-radius: 12px;
+    color: white;
+    top: 7rem;
+    right: -5rem;
 }
