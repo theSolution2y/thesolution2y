@@ -13,24 +13,26 @@
             @csrf
                 <div class="container1">
                     <h3>Contributor Form</h3>
-                     <div class="head">  
-                         <label for="name">Name</label><br>
-                        <input type="text" placeholder="Enter your name" id="name" required>
-                     </div>         
-
-                  <div class="head"> 
-                    <label for="email">Email</label><br>
-                        <input type="text" placeholder="Enter your Email" id="email" required>
-                  </div>      
-
-                  <div class="head">
-                         <label for="github">Github Profile URL</label><br>
-                        <input type="URL" placeholder="Enter your Gihub Profile URL" id="github" required>
-                    </div>                     
-                </div>   
-                <div class="submit-btn">
-                    <button class="submit">Submit</button> 
-                </div>        
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Name</th>
+                            <td><input type="text" name="name" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td><input type="text" name="email" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <th>GitHub Url</th>
+                            <td><input type="text" name="github" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" class="btn btn-primary" />
+                            </td>
+                        </tr>
+                    </table>
+                     
             </form>         
         </section>
     </body>

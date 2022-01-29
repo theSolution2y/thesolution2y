@@ -9,99 +9,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('frontend')}}/layout.css">
     <link rel="stylesheet" href="{{asset('icon')}}/css/all.css">
-    <link rel="icon" href="{{asset('icon')}}/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{ {asset('icon')}}/favicon.ico" type="image/x-icon">
+
+    <!-- font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    
   </head>
   <body>
-   <section>
+   <section class="main">
        <div class="container">
            <header>
-               <a href="#" class="logo">the<b>S</b>olution2y</a>
+           <nav class="navbar">
+                <ul class="nav_menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Contribute</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul> 
+                <div>
+                    <button id="signup">SignUp</button>
+                </div>
+                <div class="logo">
+                    <a href="#">
+                        <h3>theSolution2y</h3>
+                    </a>
+                    <img src="https://avatars.githubusercontent.com/u/96413559?s=200&v=4" alt="logo">
+                </div>
+                
+            </nav>
+               
            </header>
  
            <section class="content">
                @yield('content')
            </section>
 
-           <section class="study">
-               @yield('study')
-           </section>
-
-           <section class="read">
-               @yield('read')
-           </section>
-
            <footer>
-                <span class="up_slide">
-                    <ul>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fas fa-home"></i> 
-                                <span class="nav_menu">Home</span> 
-                            </a>
-                            <hr class="menu_divide_line">
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-leanpub"></i> 
-                                <span class="nav_menu">Study</span>
-                            </a>
-                            <hr class="menu_divide_line">
-                        </li>
-                        <li>                            
-                            <a href="{{url('contributor')}}" target="_self">
-                                <i class="fas fa-users"></i> 
-                                <span class="nav_menu">Contribute</span>
-                            </a>
-                            <hr class="menu_divide_line">
-                        </li>
-                        <li>                            
-                            <a href="#" target="_blank">
-                                <i class="fas fa-id-badge"></i> 
-                                <span class="nav_menu">Contact Us</span>
-                            </a>
-                            <hr class="menu_divide_line">
-                        </li>
-                        <li>                           
-                            <a href="#" target="_blank">
-                                <i class="fas fa-info-circle"></i> 
-                                <span class="nav_menu">About</span>
-                            </a>
-                        </li>
-                    </ul>
-                </span>
-
-                <span id="hamburger"> <i class="fas fa-bars"></i> </span>
-                <span id="ham_close"> <i class="fas fa-times"></i> </span>
-                
-                <span class="right_slide">
-                    <ul>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </span>
+           <div class="icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
            </footer>
        </div>
    </section>

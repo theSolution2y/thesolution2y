@@ -7,6 +7,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\StudyController;
 use App\Http\Controllers\ContributorController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,6 +30,7 @@ Route::get('admin/logout',[AdminController::class, 'logout']);
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 
 Route::resource('/admin/category', CategoryController::class);
+Route::get('admin/category/delete/{id}',[CategoryController::class,'delete']);
 // to know more use => php aritsan route:list
 
 // post
@@ -38,6 +40,8 @@ Route::resource('/admin/post', PostController::class);
 // -------------------------------------------------------------------
 // user side
 
+Route::view('/contactus','contact');
+Route::post('/contactus',[ContactController::class,'send']);
 
 Route::get('/', function () {
     return view('home');
@@ -50,5 +54,10 @@ Route::post('/contributor', [ContributorController::class, 'store']);
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/login', function () {
+    return view('login');
+});
 
 Route::get('/study', [StudyController::class, 'study']);
+
+Route::get('study/{id}/read',[StudyController::class, 'read']);

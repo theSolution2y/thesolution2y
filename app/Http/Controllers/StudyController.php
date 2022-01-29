@@ -22,4 +22,10 @@ class StudyController extends Controller
         $data = Post::all();
         return view('study',['data'=>$data,'cats'=>$cats]);
     }
+
+    public function read($id)
+    {
+        $data = Post::where('cat_id',$id);
+        return view('read',['data'=>$data]);
+    }
 }
