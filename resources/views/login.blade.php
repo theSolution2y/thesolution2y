@@ -23,7 +23,7 @@
 						<input type="email" name="email" placeholder="Enter your Email" required="">
 						
 						<h4>Password*</h4>
-						<input type="text" name="pswd" placeholder="Create a Password" required="">	
+						<input type="password" name="pswd" placeholder="Create a Password" required="">	
 
 						<a href=""><button>CREATE AN ACCOUNT</button></a>
 						<a href=""><button>SIGN UP WITH GOOGLE</button></a>
@@ -53,7 +53,7 @@
 						<input type="email" name="email" placeholder="Email" required="">	
 
 						<h4>Password*</h4>
-						<input type="text" name="pswd" placeholder="Password" required="">	
+						<input type="password" name="pswd" placeholder="Password" required="">	
 
 						<label for="remember">Remember me</label>
 						<input type="checkbox" name="remember" id="remember">
