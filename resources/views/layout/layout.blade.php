@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('frontend')}}/layout.css">
     <link rel="stylesheet" href="{{asset('icon')}}/css/all.css">
-    <link rel="icon" href="{{asset('icon')}}/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{ {asset('icon')}}/favicon.ico" type="image/x-icon">
 
     <!-- font CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
     
   </head>
   <body>
-   <section id="bgColor">
+   <section class="main">
        <div class="container">
            <header>
            <nav class="navbar">
@@ -28,13 +28,17 @@
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Contribute</a></li>
                     <li><a href="#">About Us</a></li>
-                </ul>
+                </ul> 
+                <div>
+                    <button id="signup">SignUp</button>
+                </div>
                 <div class="logo">
                     <a href="#">
-                        <h3>theSolution<span>2y</span></h3>
+                        <h3>theSolution2y</h3>
                     </a>
-                    <img src="" alt="logo">
+                    <img src="https://avatars.githubusercontent.com/u/96413559?s=200&v=4" alt="logo">
                 </div>
+                
             </nav>
                
            </header>
