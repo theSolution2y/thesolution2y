@@ -18,6 +18,7 @@ class PostsSeeder extends Seeder
     {
         DB::table('posts')->insert([
             'title' => str::random(20),
+            'thumb' => str::random(),
             'pdf_path' => str::random(5),
             'detail' => str::random(30),
             'tags' => str::random(10),

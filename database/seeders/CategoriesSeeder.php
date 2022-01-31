@@ -19,7 +19,7 @@ class CategoriesSeeder extends Seeder
         DB::table('categories')->insert([
             'title' => str::random(20),
             'detail' => str::random(300),
-            'PDF' => str::random(),
+            'image' => str::random(),
         ]);
     }
 }
