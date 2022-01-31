@@ -14,9 +14,82 @@ h1{
     justify-content: center;
     color: white;
     font-weight:bold;
+    margin-bottom: 14px;
 }
+
 .right p{
+    margin: 2px;
+    padding-left: 9rem;
+    padding-right: 9rem;
     color: white;
+    z-index: -1;
+}
+button a:hover{
+    color: white;
+}
+#button{
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+
+}
+
+button a{
+    color:white;
+}
+@media (max-width:910px) and (min-width:650px) {
+    .right p{padding-left: 4rem;
+    padding-right: 4rem;}
+    #button{
+        top: 3rem;
+    }
+}
+@media (max-width:651px) and (min-width:483px) {
+    .right p{
+        position: relative;
+        left: 21px;
+        padding-left: 4rem;
+        padding-right: 2rem;
+    }
+    #button{
+        top: 3rem;
+    }
+  
+}
+@media (max-width:484px) and (min-width:360px) {
+    .right p{
+        /* position: relative;
+        left: 21px; */
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #button{
+        top: 10px;
+    }
+    .left img {
+        height: 10rem;
+        width: 9rem;
+        margin-top: 2.5rem;
+    }
+}
+@media (max-width:384px) and (min-width:260px) {
+    .right p{
+        /* position: relative;
+        left: 21px; */
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #button{
+        position: relative;
+        top: 4px;
+    }
+    .left img {
+        height: 10rem;
+        width: 8rem;
+        margin-top: 2.5rem;
+    }
 }
 button{
     background: linear-gradient(135deg ,rgba(52,90,164,1), rgba(63,0,156,0.92));
@@ -26,15 +99,4 @@ button{
     width: 11rem;
     height: 3rem;
     border:2px solid white;
-}
-button a:hover{
-    color: white;
-}
-#button{
-    display: flex;
-    justify-content: center;
-
-}
-button a{
-    color:white;
 }
