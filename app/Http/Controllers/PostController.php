@@ -56,22 +56,19 @@ class PostController extends Controller
             $reThumbImage='na';
         }
 
-        // Post Full Image
-        if($request->hasFile('post_image')){
-            $image2=$request->file('post_image');
-            $reFullImage=time().'.'.$image2->getClientOriginalExtension();
-            $dest2=public_path('/imgs/full');
-            $image2->move($dest2,$reFullImage);
-        }else{
-            $reFullImage='na';
-        }
+        // Post Pdf_File
+        $validatedData = $request -> validate([
+            'file' => 'required|txt,pdf',
+        ]);
+
+        $path = $request->file('file')->store('public/files');
 
         $post=new Post;
         $post->user_id=0;
         $post->cat_id=$request->category;
         $post->title=$request->title;
         $post->thumb=$reThumbImage;
-        $post->full_img=$reFullImage;
+        $post->pdf_path=$path;
         $post->detail=$request->detail;
         $post->tags=$request->tags;
         $post->save();
