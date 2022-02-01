@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .left{
     display: flex;
     justify-content: center;
@@ -7,8 +7,13 @@
 .left img{
     height: 14rem;
     width: 11rem;
-    margin-top: 2.5rem;
+    margin-top: .5rem;
 }
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 h1{ 
     display: flex;
     justify-content: center;
@@ -20,12 +25,13 @@ h1{
 }
 button{
     background: linear-gradient(135deg ,rgba(52,90,164,1), rgba(63,0,156,0.92));
-    font-size: 1.3rem;
-    border-radius: 12px;
-    padding:0.5rem;
-    width: 11rem;
-    height: 3rem;
-    border:2px solid white;
+    font-size: 1.5rem;
+    border-radius: 13px;
+    opacity: 0.9;
+    width: 177px;
+    height: 55px;
+    border:2px solid #000;
+
 }
 button a:hover{
     color: white;
@@ -36,5 +42,5 @@ button a:hover{
 
 }
 button a{
-    color:white;
+    color:#E5E5E5   ;
 }
