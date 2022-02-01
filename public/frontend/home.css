@@ -1,28 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-.left{
-    display: flex;
-    justify-content: center;
-    
-}
-.left img{
-    height: 14rem;
-    width: 11rem;
-    margin-top: .5rem;
-}
 
 *{
     font-family: 'Roboto', sans-serif;
 }
 
-h1{ 
+.home{
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    color: white;
-    font-weight:bold;
+    text-align: center;
 }
-.right p{
-    color: white;
-}
+
 button{
     background: linear-gradient(135deg ,rgba(52,90,164,1), rgba(63,0,156,0.92));
     font-size: 1.5rem;
@@ -30,7 +20,7 @@ button{
     opacity: 0.9;
     width: 177px;
     height: 55px;
-    border:2px solid #000;
+    border:1px solid #000;
 
 }
 button a:hover{
@@ -42,5 +32,28 @@ button a:hover{
 
 }
 button a{
-    color:#E5E5E5   ;
+    color:#E5E5E5;
+}
+
+.left img{
+    height: 14rem;
+    width: 11rem;
+    margin-top: -1rem;
+    margin-bottom: .5rem;
+}
+
+.right h1{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 4rem;
+}
+
+.right p{
+    width: 100vmin;
+    color: #fff;
+    font-size: .9rem;
+    word-spacing: 2px;
+    margin-bottom: 30px;
 }

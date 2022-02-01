@@ -24,10 +24,10 @@
            <nav class="navbar">
                 <ul class="nav_menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#">Study</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">Contribute</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <!-- <li><a href="#">Contribute</a></li> -->
+                    <li><a href="#">About</a></li>
                 </ul> 
                 <div>
                     <button id="signup">SignUp</button>
