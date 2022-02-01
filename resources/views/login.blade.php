@@ -13,16 +13,16 @@
 					<h2>Sign Up</h2>
 					<p>Enter your name, email and password to sign up</p>
 					<!-- form -->
-					<form action="/signUp" method="post">
-			
+					<form action="/signup" method="post">
+						@csrf
 						<h4>Name*</h4>
-						<input type="text" name="txt" placeholder="Enter your Name" required="">
+						<input type="text" name="name" placeholder="Enter your Name" required="">
 					
 						<h4>Email*</h4>
 						<input type="email" name="email" placeholder="Enter your Email" required="">
 						
 						<h4>Password*</h4>
-						<input type="password" name="pswd" placeholder="Create a Password" required="">	
+						<input type="password" name="password" placeholder="Create a Password" required="">	
 
 						<a href=""><button>CREATE AN ACCOUNT</button></a>
 						<a href=""><button>SIGN UP WITH GOOGLE</button></a>
@@ -46,13 +46,13 @@
 					<h2>Sign In</h2>
 					<p>Enter your email and password to sign in</p>
 					<!-- form -->
-					<form action="/login" method="post">
-							
+					<form action="/signin" method="post">
+							@csrf
 						<h4>Email*</h4>
 						<input type="email" name="email" placeholder="Email" required="">	
 
 						<h4>Password*</h4>
-						<input type="password" name="pswd" placeholder="Password" required="">	
+						<input type="password" name="password" placeholder="Password" required="">	
 
 						<label for="remember">Remember me</label>
 						<input type="checkbox" name="remember" id="remember">

@@ -16,7 +16,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, pariatur.</p>
             <!-- form -->
             <form action="/contributer" method="post">
-
+                @csrf
                 <h4>username*</h4>
                 <input type="text" name="txt" placeholder="username" required="">
 
@@ -37,7 +37,8 @@
             <h2>Contact Us</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus ad blanditiis voluptatem vero assumenda
                 dolor ab.</p>
-            <form action="/contact" method="post">
+            <form action="/contactus" method="post">
+                @csrf
                 <div>
                     <h3>Full Name</h3>
                     <input type="text" name="name" placeholder="Full Name">

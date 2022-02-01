@@ -8,6 +8,9 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\StudyController;
 use App\Http\Controllers\ContributorController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\SignupController;
+use App\Http\Controllers\SigninController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -54,10 +57,13 @@ Route::post('/contributor', [ContributorController::class, 'store']);
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/login', function () {
-    return view('login');
-});
+
+Route::view('/login','login');
+
+Route::post('/signup',[SignupController::class ,'send']);
 
 Route::get('/study', [StudyController::class, 'study']);
 
 Route::get('study/{id}/read',[StudyController::class, 'read']);
+
+Route::post('/signin', [SigninController::class, 'submit_login']);
