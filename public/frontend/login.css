@@ -1,12 +1,257 @@
-body{
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: url('https://res.cloudinary.com/practicaldev/image/fetch/s--_MCEk7P6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vm957e5dm3hxnwc94dd7.jpg');
- }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@300&display=swap');
+
+:root {
+    --slate-gray: #67748E;
+    --dark: #252F40;
+    --blue-gradient: linear-gradient(135deg,#21D4FD, #2152FF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+
+.signup {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup .form {
+    /*  */
+    visibility: hidden; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.signup .form form {
+    height: 50vh;
+    display: grid;
+    grid-template-rows: 2fr, repeat(6, 1fr);
+}
+
+.signup .form form h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+
+.signup .form form p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: var(--slate-gray);
+    line-height: 20px;
+
+}
+
+.signup .form form h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.signup .form form input {
+    margin-bottom: 10px;
+
+    font-size: 10px;
+    padding: 0 10px;
+    width: 586px;
+    height: 58.13px;
+    border-radius: 8px;
+    border: 1px solid #D2D6DA;
+}
+
+.signup .form .btn button{
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 10px;
+    /* font-weight: 500; */
+    padding: 0 10px;
+    width: 586px;
+    height: 58.13px;
+    border-radius: 8px;
+    border: 1px solid #D2D6DA;
+    background: var(--blue-gradient);
+    color: #fff;
+}
+
+.signup .form form  #sign-in{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+    color: var(--slate-gray);
+}
+
+.signup #sign-in a{
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--blue-gradient);
+}
+
+/* Login */
+
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .form {
+    /*  */
+    /* visibility: hidden;  */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.login .form form {
+    height: 50vh;
+    display: grid;
+    grid-template-rows: 2fr, repeat(6, 1fr);
+}
+
+.login .form form h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+.form form p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: var(--slate-gray);
+    line-height: 20px;
+
+}
+
+
+
+.form form .input input{
+    margin: 10px 0;
+
+    font-size: 10px;
+    padding: 0 10px;
+    width: 586px;
+    height: 58.13px;
+    border-radius: 8px;
+    border: 1px solid #D2D6DA;
+}
+
+.login .form form label{
+    color: var(--dark);
+    font-size: 10px; 
+    display: flex;
+    padding: 10px;
+}
+
+#remember{
+    width: 15px;
+    /* margin-bottom: 10px; */
+}
+
+.form .btn button{
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    margin-top: 45px;
+    font-size: 10px;
+    /* font-weight: 500; */
+    padding: 0 10px;
+    width: 586px;
+    height: 58.13px;
+    border-radius: 8px;
+    border: 1px solid #D2D6DA;
+    background: var(--blue-gradient);
+    color: #fff;
+}
+
+.form form  #log-in{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 25px;
+    color: var(--slate-gray);
+}
+
+#log-in a{
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--blue-gradient);
+}
+
+
+
+
+
+
+/* Right Section */
+
+.right-section {
+    height: 100%;
+    background-image: url(https://user-images.githubusercontent.com/95094057/151662699-c6868d90-95a3-452a-8bfe-3d8a56f61b5e.jpg);
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-section>div:first-of-type {
+    background-color: #D6DEEE;
+    border-radius: 42px;
+    height: 625px;
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.right-section .image {
+    position: relative;
+    left: -100px;
+    top: 50px;
+    transform: scaleX(-1);
+    width: 30vw;
+    height: 60vh;
+}
+
+.right-section p {
+    font-size: 10px;
+    width: 20vw;
+    height: 30vh;
+    margin: 0 auto;
+}
+
+/* 
 .main{
 	width: 350px;
 	height: 500px;
@@ -16,6 +261,7 @@ body{
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
 }
+
 #chk{
 	display: none;
 }
@@ -86,4 +332,4 @@ button:hover{
 }
 #chk:checked ~ .signup label{
 	transform: scale(.6);
-}
+} */
