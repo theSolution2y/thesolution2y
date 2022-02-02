@@ -30,7 +30,7 @@ body {
 
 .signup .form {
     /*  */
-    visibility: hidden; 
+    /* visibility: hidden;  */
     height: 100%;
     display: flex;
     flex-direction: column;

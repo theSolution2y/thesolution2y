@@ -25,7 +25,7 @@
 						<input type="password" name="pswd" placeholder="Create a Password" required="">	
 
 						<a href=""><button>CREATE AN ACCOUNT</button></a>
-						<a href=""><button>SIGN UP WITH GOOGLE</button></a>
+						<!-- <a href=""><button>SIGN UP WITH GOOGLE</button></a> -->
 
 						<p>Already have an account?<a href="">Sign in</a></p>
 					</form>
