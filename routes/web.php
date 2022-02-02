@@ -67,3 +67,6 @@ Route::get('/study', [StudyController::class, 'study']);
 Route::get('study/{id}/read',[StudyController::class, 'read']);
 
 Route::post('/signin', [SigninController::class, 'submit_login']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
