@@ -29,9 +29,25 @@
                     <li><a href="#">Contribute</a></li>
                     <li><a href="#">About Us</a></li>
                 </ul> 
-                <div>
-                    <button id="signup">SignUp</button>
-                </div>
+                @guest
+                
+                   <li><a href="{{url('login')}}">Login</a></li>
+                
+                
+                    <li><a href="{{url('register')}}">SignUp</a></li>
+                
+
+                @else
+                <li>
+                    <a onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();" href="{{url('logout')}}">Logout</a>
+                </li>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                    @csrf
+                </form>
+            
+                @endguest
+                
                 <div class="logo">
                     <a href="#">
                         <h3>theSolution2y</h3>
