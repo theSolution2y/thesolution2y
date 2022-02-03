@@ -26,9 +26,9 @@
     <div id="brand"><img src="{{asset('imgs')}}/logo.png" alt="" id="imglogo"><a href="/">TheSolution2Y</a></div>
     <nav>
       <ul>
-        <li><a href="/home">Home</a></li>
-        <li><a href="/products">About</a></li>
-        <li><a href="/about">Contact\Contribute</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact\Contribute</a></li>
         <li id="login"><a href="/login">Login</a></li>
         <li id="signup"><a href="/signup">Signup</a></li>
       </ul>
@@ -38,9 +38,9 @@
       <div class="bar2"></div>
       <div class="bar3"></div>
       <ul class="mobile-menu">
-        <li><a href="/home">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="/about">Contact\Contribute</a></li>
+        <li><a href="/contact">Contact\Contribute</a></li>
         <li id="login"><a href="/login">Login</a></li>
         <li id="signup"><a href="/signup">Signup</a></li>
       </ul>
@@ -59,7 +59,7 @@
    
            <!-- footer -->
   <footer id="fott">
-    <a href="#" class="fa fa-facebook"></a>
+   
     <a href="#" class="fa fa-twitter"></a>
     <a href="#" class="fa fa-github"></a>
     <a href="#" class="fa fa-linkedin"></a>
