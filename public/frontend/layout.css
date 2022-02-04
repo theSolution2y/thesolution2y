@@ -15,6 +15,10 @@ body {
     margin:auto;
 
 }
+
+.container{
+    width: 100%;
+}
 .main{
     height: 100vh;
     width: 100vw;
@@ -40,7 +44,7 @@ header{
     display: flex;
     /* margin-top: 1.5rem; */
     align-items: center;
-    margin-left: -2rem;
+    /* margin-left: -2rem; */
 }
 
 .nav_menu li {
@@ -56,7 +60,8 @@ header{
 
 
 .nav_menu li a {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
     color:white;
     text-decoration: none;
     letter-spacing: 1px;
@@ -92,18 +97,18 @@ header{
 }
 .icons{
     position: absolute;
-    left: 45%;
+    left: 44%;
     bottom:2rem;
     right:1rem;
 }
 .icons a{
     color: black;
-    margin-right: 2rem;
-    font-size: 2rem;
+    margin-right: 2.5rem;
+    font-size: 2.2rem;
 }
 
 .icons a:hover{
-    font-size: 2.1rem;
+    font-size: 2.3rem;
 }
 
 .image img{
@@ -116,7 +121,8 @@ header{
     width: 135px;
     height: 45px;
     position: absolute;
-    border-radius: 13px;
+    border-radius: 15px;
+    opacity: .7;
     color: #E5E5E5;
     top: 6rem;
     right: -5rem;
