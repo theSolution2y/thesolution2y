@@ -23,11 +23,11 @@
            <header>
            <nav class="navbar">
                 <ul class="nav_menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Study</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="{{url('home')}}">Home</a></li>
+                    <li><a href="{{url('study')}}">Study</a></li>
+                    <li><a href="{{url('contactus')}}">Contact</a></li>
                     <!-- <li><a href="#">Contribute</a></li> -->
-                    <li><a href="#">About</a></li>
+                    <li><a href="{{url('about')}}">About</a></li>
                 </ul> 
                 @guest
                 
@@ -49,7 +49,7 @@
                 @endguest
                 
                 <div class="logo">
-                    <a href="#">
+                    <a href="{{url('home')}}">
                         <h3>theSolution2y</h3>
                     </a>
                     <img src="https://avatars.githubusercontent.com/u/96413559?s=200&v=4" alt="logo">
@@ -65,9 +65,9 @@
 
            <footer>
            <div class="icons">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/theSolution2y/thesolution2y"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/thesolution2y"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/thesolution2y"><i class="fab fa-instagram"></i></a>
             </div>
            </footer>
        </div>
