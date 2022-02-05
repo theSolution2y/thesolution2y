@@ -14,65 +14,72 @@
     <!-- font CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     
   </head>
   <body>
-   <section class="main">
-       <div class="container">
-           <header>
-           <nav class="navbar">
-                <ul class="nav_menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Study</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <!-- <li><a href="#">Contribute</a></li> -->
-                    <li><a href="#">About</a></li>
-                </ul> 
-                @guest
-                
-                   <li><a href="{{url('login')}}">Login</a></li>
-                
-                
-                    <li><a href="{{url('register')}}">SignUp</a></li>
-                
-
-                @else
-                <li>
-                    <a onclick="event.preventDefault();
-                        document.getElementById('logout-form').submit();" href="{{url('logout')}}">Logout</a>
-                </li>
-                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                    @csrf
-                </form>
+  <img src="{{asset('imgs')}}/background.png" alt="" id="bg">
+       <header>
+       <div id="brand"><img src="{{asset('imgs')}}/logo.png" alt="" id="imglogo"><a href="/">TheSolution2Y</a></div>
+      <nav>
+      <ul>
+   
+        <li class="effect"><a href="/">Home</a></li>
+        <li class="effect"><a href="/about">About</a></li>
+        <li class="effect"><a href="/contact">Contact\Contribute</a></li>
+      
+        @guest
+                <li id="login"><a href="{{url('login')}}">Login</a></li>
+                <li id="signup"><a href="{{url('register')}}">SignUp</a></li>
+        @else
+          <li>
+          <a onclick="event.preventDefault();
+           document.getElementById('logout-form').submit();" href="{{url('logout')}}">Logout</a>
+          </li>
+          <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+            @csrf
+          </form>
             
-                @endguest
-                
-                <div class="logo">
-                    <a href="#">
-                        <h3>theSolution2y</h3>
-                    </a>
-                    <img src="https://avatars.githubusercontent.com/u/96413559?s=200&v=4" alt="logo">
-                </div>
-                
-            </nav>
-               
-           </header>
+        @endguest
+      </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li  class="effect"><a href="/">Home</a></li>
+        <li  class="effect"><a href="/about">About</a></li>
+        <li  class="effect"><a href="/contact">Contact\Contribute</a></li>
+        @guest
+                <li id="login"><a href="{{url('login')}}">Login</a></li>
+                <li id="signup"><a href="{{url('register')}}">SignUp</a></li>
+        @else
+          <li>
+          <a onclick="event.preventDefault();
+           document.getElementById('logout-form').submit();" href="{{url('logout')}}">Logout</a>
+          </li>
+          <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+            @csrf
+          </form>
+            
+        @endguest
+      </ul>
+    </div>
+  </header>
  
            <section class="content">
                @yield('content')
            </section>
 
-           <footer>
-           <div class="icons">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
+           <footer id="fott">
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-github"></a>
+              <a href="#" class="fa fa-linkedin"></a>
            </footer>
-       </div>
-   </section>
-
+     
+  
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -88,5 +95,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="{{asset('frontend')}}/layout.js"></script>
+    
   </body>
 </html>

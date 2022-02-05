@@ -13,47 +13,105 @@
     text-align: center;
 }
 
-button{
-    background: linear-gradient(135deg ,rgba(52,90,164,1), rgba(63,0,156,0.92));
-    font-size: 1.5rem;
-    border-radius: 13px;
-    opacity: 0.9;
-    width: 177px;
-    height: 55px;
-    border:1px solid #000;
 
+.left{
+    display: flex;
+    justify-content: center;
+    
+}
+.left img{
+    height: 14rem;
+    width: 11rem;
+    margin-top: 2.5rem;
+}
+h1{ 
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight:bold;
+    margin-bottom: 14px;
+}
+
+.right p{
+    margin: 2px;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    color: white;
+    z-index: -1;
 }
 button a:hover{
     color: white;
 }
 #button{
+    z-index: -1;
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 2rem;
 
 }
+
 button a{
-    color:#E5E5E5;
+    color:white;
 }
-
-.left img{
-    height: 14rem;
+@media (max-width:910px) and (min-width:650px) {
+    .right p{padding-left: 4rem;
+    padding-right: 4rem;}
+    #button{
+        top: 3rem;
+    }
+}
+@media (max-width:651px) and (min-width:483px) {
+    .right p{
+        position: relative;
+        left: 21px;
+        padding-left: 4rem;
+        padding-right: 2rem;
+    }
+    #button{
+        top: 3rem;
+    }
+  
+}
+@media (max-width:484px) and (min-width:360px) {
+    .right p{
+        /* position: relative;
+        left: 21px; */
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #button{
+        top: 10px;
+    }
+    .left img {
+        height: 10rem;
+        width: 9rem;
+        margin-top: 2.5rem;
+    }
+}
+@media (max-width:384px) and (min-width:260px) {
+    .right p{
+        /* position: relative;
+        left: 21px; */
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #button{
+        position: relative;
+        top: 4px;
+    }
+    .left img {
+        height: 10rem;
+        width: 8rem;
+        margin-top: 2.5rem;
+    }
+}
+button{
+    background: linear-gradient(135deg ,rgba(52,90,164,1), rgba(63,0,156,0.92));
+    font-size: 1.3rem;
+    border-radius: 12px;
+    padding:0.5rem;
     width: 11rem;
-    margin-top: -1rem;
-    margin-bottom: .5rem;
-}
-
-.right h1{
-    font-size: 3rem;
-    color: #fff;
-    font-weight: 700;
-    letter-spacing: 1px;
-    line-height: 4rem;
-}
-
-.right p{
-    width: 100vmin;
-    color: #fff;
-    font-size: .9rem;
-    word-spacing: 2px;
-    margin-bottom: 30px;
+    height: 3rem;
+    border:2px solid white;
 }
