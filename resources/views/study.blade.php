@@ -1,29 +1,75 @@
 @extends('layout.layout')
 @section('content')
 <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Study</title>
-     <link rel="stylesheet" href="{{asset('frontend')}}/study.css">
- </head>
- <body style="background:none;">
-    <div class="catsec">
-        <div class="chip">
-            @foreach ($cats as $stud)
-            <div class="column">
-            <a style="text-decoration: none; color:black" href="{{url('study/'.$stud->id.'/read')}}">
-            <ul>
-            <img src="{{asset('imgs')}}/{{$stud->image}}" alt="{{$stud->title}}">
-            <li>{{$stud->title}}</li>
-            </ul>
-            </a>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study</title>
+    <link rel="stylesheet" href="{{asset('frontend')}}/study.css">
+</head>
+
+<body>
+    <main>
+        <!-- First Year  -->
+        <div class="container">
+            <div class="title">
+                <!-- Year Name  -->
+                <h2 class="year">First Year</h2>
             </div>
-            @endforeach
+            <div class="card">
+                <!-- Subject Related Image  -->
+                <img class="card-img-top" src="" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Subject Name</h4>
+                </div>
+            </div>
         </div>
-    </div>
- </body>
- </html>
- @endsection
+        <!-- Second Year  -->
+        <div class="container">
+            <div class="title">
+                <!-- Year Name  -->
+                <h2 class="year">Second Year</h2>
+            </div>
+            <div class="card">
+                <!-- Subject Related Image  -->
+                <img class="card-img-top" src="" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Subject Name</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Third Year  -->
+        <div class="container">
+            <div class="title">
+                <!-- Year Name  -->
+                <h2 class="year">Third Year</h2>
+            </div>
+            <div class="card">
+                <!-- Subject Related Image  -->
+                <img class="card-img-top" src="" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Subject Name</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Fourth Year  -->
+        <div class="container">
+            <div class="title">
+                <!-- Year Name  -->
+                <h2 class="year">Fourth Year</h2>
+            </div>
+            <div class="card">
+                <!-- Subject Related Image  -->
+                <img class="card-img-top" src="" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Subject Name</h4>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+@endsection
