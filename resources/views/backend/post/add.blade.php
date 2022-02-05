@@ -43,21 +43,15 @@
                 <td><input type="text" name="title" class="form-control" /></td>
             </tr>
             <tr>
-                <th>Thumbnail</th>
-                <td><input type="file" name="post_thumb" /></td>
-            </tr>
-            <tr>
-                <th>Post Image</th>
-                <td><input type="file" name="post_image" /></td>
+                <input type="file" name="file" class="custom-file-input" id="chooseFile">
+                <label class="custom-file-label" for="chooseFile">Select pdf</label>
+            
             </tr>
             <tr>
                 <th>Detail<span class = "text-danger"> *</span></th>
                 <td><textarea name="detail" id="" class="form-control" cols="30" rows="10"></textarea></td>
             </tr>
-            <tr>
-                <th>Tags<span class = "text-danger"> *</span></th>
-                <td><textarea name="tags" id="" class="form-control" cols="30" rows="10"></textarea></td>
-            </tr>
+   
             
             <tr>
                 <td colspan="2">

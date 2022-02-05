@@ -40,37 +40,33 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'title'=>'required',
-            'category'=>'required',
-            'detail'=>'required',
-        ]);
+        // $request->validate([
+        //     'title'=>'required',
+        //     'category'=>'required',
+        //     'detail'=>'required',
+        // ]);
 
-        // Post Thumbnail
-        if($request->hasFile('post_thumb')){
-            $image1=$request->file('post_thumb');
-            $reThumbImage=time().'.'.$image1->getClientOriginalExtension();
-            $dest1=public_path('/imgs/thumb');
-            $image1->move($dest1,$reThumbImage);
-        }else{
-            $reThumbImage='na';
-        }
+    
+        // // Post Pdf_File
+        // $request -> validate([
+        //     'file' => 'required|txt,pdf',
+        // ]);
 
-        // Post Pdf_File
-        $validatedData = $request -> validate([
-            'file' => 'required|txt,pdf',
-        ]);
+        // $fileName = time().'_'.$request->file->getClientOriginalName();
+        $filePath = $request->file('file')->store('public/files');
 
-        $path = $request->file('file')->store('public/files');
-
+        
+       
+        
         $post=new Post;
         $post->user_id=0;
         $post->cat_id=$request->category;
-        $post->title=$request->title;
-        $post->thumb=$reThumbImage;
-        $post->pdf_path=$path;
+        // $post->title=$request->title;
+        $post->pdf_path=$filePath;
+        $post->title=time().'_'.$request->file->getclientOriginalName();
+        
         $post->detail=$request->detail;
-        $post->tags=$request->tags;
+        
         $post->save();
 
         return redirect('admin/post/create')->with('success','Data has been added');    
