@@ -74,9 +74,9 @@
            </section>
 
            <footer id="fott">
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-github"></a>
-              <a href="#" class="fa fa-linkedin"></a>
+              <a href="https://twitter.com/thesolution2y" class="fa fa-twitter"></a>
+              <a href="https://github.com/theSolution2y/thesolution2y" class="fa fa-github"></a>
+              <a href="https://www.instagram.com/thesolution2y" class="fa fa-instagram"></a>
            </footer>
      
   
