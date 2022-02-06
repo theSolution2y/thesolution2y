@@ -9,6 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study</title>
     <link rel="stylesheet" href="{{asset('frontend')}}/study.css">
+    <style>
+        .card .card-img-top{
+            max-width: 5.5rem;
+            height: 5rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,10 +27,14 @@
             </div>
             <div class="card">
                 <!-- Subject Related Image  -->
-                <img class="card-img-top" src="" alt="">
+                @foreach($cats as $data)
+                <img class="card-img-top" style="" src="{{asset('imgs')}}/{{$data['image']}}" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Subject Name</h4>
-                </div>
+                    <h4 class="card-title">
+                        {{$data['title']}}
+                </h4>
+            </div>
+            @endforeach
             </div>
         </div>
         <!-- Second Year  -->
@@ -35,10 +45,14 @@
             </div>
             <div class="card">
                 <!-- Subject Related Image  -->
-                <img class="card-img-top" src="" alt="">
+                @foreach($cats as $data)
+                <img class="card-img-top" style="" src="{{asset('imgs')}}/{{$data['image']}}" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Subject Name</h4>
-                </div>
+                    <h4 class="card-title">
+                        {{$data['title']}}
+                </h4>
+            </div>
+            @endforeach
             </div>
         </div>
         <!-- Third Year  -->
@@ -49,10 +63,14 @@
             </div>
             <div class="card">
                 <!-- Subject Related Image  -->
-                <img class="card-img-top" src="" alt="">
+                @foreach($cats as $data)
+                <img class="card-img-top" style="" src="{{asset('imgs')}}/{{$data['image']}}" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Subject Name</h4>
-                </div>
+                    <h4 class="card-title">
+                        {{$data['title']}}
+                </h4>
+            </div>
+            @endforeach
             </div>
         </div>
         <!-- Fourth Year  -->
@@ -63,10 +81,14 @@
             </div>
             <div class="card">
                 <!-- Subject Related Image  -->
-                <img class="card-img-top" src="" alt="">
+                @foreach($cats as $data)
+                <img class="card-img-top" style="" src="{{asset('imgs')}}/{{$data['image']}}" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Subject Name</h4>
-                </div>
+                    <h4 class="card-title">
+                        {{$data['title']}}
+                </h4>
+            </div>
+            @endforeach
             </div>
         </div>
     </main>
