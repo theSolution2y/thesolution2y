@@ -30,9 +30,7 @@
                 @foreach($cats as $data)
                 <img class="card-img-top" style="" src="{{asset('imgs')}}/{{$data['image']}}" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">
-                        {{$data['title']}}
-                </h4>
+                    <h4 class="card-title"><a href="{{url('study/'.$data->id.'/read')}}">{{$data['title']}}</a></h4>
             </div>
             @endforeach
             </div>
