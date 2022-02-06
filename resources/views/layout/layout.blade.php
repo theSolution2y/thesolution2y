@@ -21,7 +21,7 @@
   <body>
   <img src="{{asset('imgs')}}/background.png" alt="" id="bg">
        <header>
-       <div id="brand"><img src="{{asset('imgs')}}/logo.png" alt="" id="imglogo"><a href="/">TheSolution2Y</a></div>
+       <div id="brand"><img src="https://avatars.githubusercontent.com/u/96413559?s=200&v=4" alt="" id="imglogo"><a href="/">TheSolution2Y</a></div>
       <nav>
       <ul>
    
