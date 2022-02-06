@@ -30,28 +30,18 @@
                 <div class="back">
                     <ul>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-facebook"></i>
+                            <a href=" https://github.com/balendurawat" target="_blank">
+                            <i class="fab fa-github-square"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                            <a href=" https://www.linkedin.com/in/balendu-rawat-a462bb227/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter"></i>
+                            <a href="https://twitter.com/RawatBalendu" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
                             </a>
                         </li>
                     </ul>
@@ -68,28 +58,18 @@
                 <div class="back">
                     <ul>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-facebook"></i>
+                            <a href=" https://github.com/Shivam-Samant" target="_blank">
+                            <i class="fab fa-github-square"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                            <a href=" https://www.linkedin.com/in/shivam-samant-82a4bb223/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter"></i>
+                            <a href=" https://twitter.com/ShivamSamant5" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
                             </a>
                         </li>
                     </ul>
@@ -106,28 +86,18 @@
                 <div class="back">
                     <ul>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-facebook"></i>
+                            <a href=" https://github.com/shivamuttpal" target="_blank">
+                            <i class="fab fa-github-square"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                            <a href=" https://www.linkedin.com/in/shivam-uttpal-jha-b63b111b7/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter"></i>
+                            <a href=" https://twitter.com/UttpalJha" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
                             </a>
                         </li>
                     </ul>
@@ -144,28 +114,18 @@
                 <div class="back">
                     <ul>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-facebook"></i>
+                            <a href=" https://github.com/SidSaklani1896" target="_blank">
+                            <i class="fab fa-github-square"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                            <a href=" https://twitter.com/MesmerisingS0uL?t=ZgfSydp4ucplQ1tBn4Qbig&s=09" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter"></i>
+                            <a href=" https://www.linkedin.com/in/siddharth-saklani-298312221" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
                             </a>
                         </li>
                     </ul>
@@ -182,28 +142,18 @@
                 <div class="back">
                     <ul>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-facebook"></i>
+                            <a href=" https://github.com/Ishanchauhan06" target="_blank">
+                            <i class="fab fa-github-square"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                            <a href=" https://www.linkedin.com/in/ishan-chauhan-b89b52205" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter"></i>
+                            <a href="https://twitter.com/Ishanch13380210?t=jbt-MgIk8QcqW_WcYcBJEA&s=08" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
                             </a>
                         </li>
                     </ul>
@@ -220,28 +170,18 @@
                 <div class="back">
                     <ul>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-facebook"></i>
+                            <a href=" https://github.com/Ayush8923" target="_blank">
+                            <i class="fab fa-github-square"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                            <a href=" https://www.linkedin.com/in/ayu-uniyal-31b230217/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter"></i>
+                            <a href=" https://twitter.com/Ayush06040189" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
                             </a>
                         </li>
                     </ul>
@@ -258,28 +198,46 @@
                 <div class="back">
                     <ul>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-facebook"></i>
+                            <a href=" https://github.com/Devyush" target="_blank">
+                            <i class="fab fa-github-square"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                            <a href=" https://in.linkedin.com/in/devyush-raturi-070103221" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-github"></i>
+                            <a href=" https://twitter.com/raturidevyush" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </span>
+            <span class="card">
+                <div class="front">
+                    <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C5603AQFu_dd68kal7A/profile-displayphoto-shrink_200_200/0/1644136366378?e=1649894400&v=beta&t=NZvEk5Q-WXn0N7WHJepfqk3z-Oo4r0gTe9-2ltwlhvE" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">Adarsh thakur</a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Aadarsh805" target="_blank">
+                            <i class="fab fa-github-square"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-linkedin"></i>
+                            <a href=" https://www.linkedin.com/in/aadarsh-thakur-090a31227/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter"></i>
+                            <a href="https://twitter.com/Aadarsh805" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
                             </a>
                         </li>
                     </ul>
