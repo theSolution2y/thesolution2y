@@ -62,8 +62,10 @@ Route::view('/login','login');
 
 Route::post('/signup',[SignupController::class ,'send']);
 
+// study here is to show all categories 
 Route::get('/study', [StudyController::class, 'study']);
 
+// to go to the page to read the pdfs
 Route::get('study/{id}/read',[StudyController::class, 'read']);
 
 Route::post('/signin', [SigninController::class, 'submit_login']);

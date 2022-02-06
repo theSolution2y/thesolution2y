@@ -22,8 +22,13 @@
             <!-- unit name list -->
             <div class="unitNameList">
                 <ul>
-                    <li>Unit 1</li>
-                    <li>Unit 2</li>
+                    
+                    @foreach ($posts as $data)
+                    <li>{{$data->title}}</li>
+                        
+                    @endforeach
+                    {{-- <li>Unit 1</li> --}}
+                    
                 </ul>
             </div>
         </div>

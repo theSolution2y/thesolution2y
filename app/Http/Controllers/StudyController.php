@@ -19,13 +19,17 @@ class StudyController extends Controller
     public function study()
     {
         $cats = Category::all();
-        $data = Post::all();
-        return view('study',['data'=>$data,'cats'=>$cats]);
+        return view('study', ['cats'=>$cats]);
+        // $cats = Category::all();
+        // $data = Post::all();
+        // return view('study',['data'=>$data,'cats'=>$cats]);
     }
 
     public function read($id)
     {
-        $data = Post::where('cat_id',$id);
-        return view('read',['data'=>$data]);
+        // dd($id);
+        $posts = Post::where('cat_id',$id)->get();
+        // dd($posts);
+        return view('read',['posts'=>$posts]);
     }
 }
