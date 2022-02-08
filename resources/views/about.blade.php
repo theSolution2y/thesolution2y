@@ -14,23 +14,31 @@
 <body>
     <div class="aboutus">
         <h1>ABOUT US</h1>
-        <p class="mission">When we started this project on November 2021 our main focus was what we can deliver to the society and specially to our juniors in what way we can help them
-            so we came up with the idea of making an open source project where anyone can give their contribution and get to know practical knowledge of coding and actual way how things work.
-            <br>
-            <br>
-            Balendu Rawat the mastermind behind the project who guided us through the entire project and roadmap how to do task effeciently.
-            <br>
-            <br>
-            Shivam Samant, Shivam Uttpal Jha, & Ishan chauhan these guys were the main frontend coders who wrote HTML,CSS & JavaScript code.
-            <br>
-            <br>
-            Devyush Raturi this guy was the tester of the whole project any error.
-            <br>
-            <br>
-            Adarsh Thakur the UI/UX designer of the project.
-            <br>
-            <br>
-            Balendu Rawat and Siddharth Saklani these guys were the main backend coders who wrote PHP code.</p>
+        <p class="mission">
+            Devyush and Balendu wandering in the distant hill of Tehri Garhwal , were amidst of the state of aspiring more and doing nothing.
+These two nerds were simply coming up with unworthy ideas.
+There were not only these nerds thinking there stuffs , but some more unused brains who were just trying to start and take off with the tech ,
+introducing Shivam Samant and Siddarth Saklani in the game .
+These frequencies matched and they just got indulged in building something.
+Before only 2 were wandering in nothingness , but now all 4 got useless.
+Then the same things happened that happens in nearly every average college among the students like blaming college and themseleves doing nothing.
+These 4 useless fellows just thought about building a better coding ecosystem in college to involve a better engagement in the college around coding.
+
+For nearly a month these people did nothing.
+It was the time for exams and these people didnt stuied at all, and were out of college lecture notes and resources.
+And on 13th december while travelling the distant hill these nerds just started of with building a notes and lectures sharing website for college students
+On 14th december they just met and started off with the project .
+
+Thus formed the team of 4 people Balendu , Shivam , Siddarth , Devyush. 
+Some more joined including Ishan , Utpal and many left the journey .
+Through social media a new person joined the team , Asdarsh from Indore.
+
+More will join and leave but the project will remain.
+
+
+
+
+        </p>
         <h2>OUR TEAM</h2>
 
         <div>
