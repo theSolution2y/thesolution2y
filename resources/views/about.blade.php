@@ -15,23 +15,23 @@
     <div class="aboutus">
         <h1>ABOUT US</h1>
         <p class="mission">
-            Devyush and Balendu wandering in the distant hill of Tehri Garhwal , were amidst of the state of aspiring more and doing nothing.
+            Devyush and Balendu wandering in the distant hill of Tehri Garhwal, were amidst of the state of aspiring more and doing nothing.
 These two nerds were simply coming up with unworthy ideas.
-There were not only these nerds thinking there stuffs , but some more unused brains who were just trying to start and take off with the tech ,
-introducing Shivam Samant and Siddarth Saklani in the game .
+There were not only these nerds thinking there stuffs, but some more unused brains who were just trying to start and take off with the tech,
+introducing Shivam Samant and Siddarth Saklani in the game.
 These frequencies matched and they just got indulged in building something.
-Before only 2 were wandering in nothingness , but now all 4 got useless.
-Then the same things happened that happens in nearly every average college among the students like blaming college and themseleves doing nothing.
+Before only 2 were wandering in nothingness, but now all 4 got useless.
+Then the same things happened that happens in nearly every average college among the students like blaming college and themselves doing nothing.
 These 4 useless fellows just thought about building a better coding ecosystem in college to involve a better engagement in the college around coding.
 
 For nearly a month these people did nothing.
-It was the time for exams and these people didnt stuied at all, and were out of college lecture notes and resources.
-And on 13th december while travelling the distant hill these nerds just started of with building a notes and lectures sharing website for college students
-On 14th december they just met and started off with the project .
+It was the time for exams and these people didn't studied at all, and were out of college lecture notes and resources.
+And on 13th December while travelling the distant hill these nerds just started off with building a notes and lecture sharing website for college students.
+On 14th December, they just met and started off with the project .
 
-Thus formed the team of 4 people Balendu , Shivam , Siddarth , Devyush. 
-Some more joined including Ishan , Utpal and many left the journey .
-Through social media a new person joined the team , Asdarsh from Indore.
+Thus, formed the team of 4 people Balendu, Shivam, Siddarth and Devyush. 
+Some more joined including Ishan and Uttpal and many left the journey.
+Through social media a new person joined the team, Aadarsh from Indore.
 
 More will join and leave but the project will remain.
 
