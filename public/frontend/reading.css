@@ -1,56 +1,29 @@
-main{
+#mainCont{
     display: flex;
     justify-content: center;
 }
-.Cont{
+.container{
+  margin: 0 auto;
   margin-top: 5rem;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 30% 70%;
+  display: flex;
+  flex-wrap: wrap;
 }
-.leftSide{
-  background-color: aquamarine;
+.card{
+  width: 14rem;
+  height: 16rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
 }
-.leftSide .title{
+.card .card-body .card-title{
   text-align: center;
 }
-.rightSide header{
-  margin: 0;
-  padding: 0;
-  height: 4rem;
-  color: white;
-  background-color: black;
-  display: flex;
+.card .card-body .card-title a{
+  text-decoration: none;
+  color: black;
 }
-.rightSide header .unitName{
-  font-size: 1.5rem;
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.rightSide header .icon{
-  width: 20%;
-}
-.rightSide header .icon ul{
-  margin: 0;
-  padding: 0;
-  justify-content: space-evenly;
-}
-.rightSide header .icon ul li{
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-.rightSide header .icon ul li:hover .fas{
-  font-size: 1.29rem;
-}
-.rightSide header .icon ul li span .fa-moon{
-  margin-right: 0.5rem;
-}
-
-.rightSide .pdfCont{
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.75);
+.card .card-body .card-title a:hover{
+  color: blue;
+  cursor: pointer;
 }
