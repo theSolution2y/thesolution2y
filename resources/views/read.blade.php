@@ -13,72 +13,20 @@
 </head>
 
 <body>
-    <main>
-
-        <!-- left sidebar  -->
-        <div class="leftSide">
-            <div class="title">
-                <h2>Subject Name</h2>
-            </div>
+    <main id="mainCont">
+        <div class="container">
             <!-- unit name list -->
-            <div class="unitNameList">
-                <ul>
-                    
-                    @foreach ($posts as $data)
-                                
-                                <li><a href="{{url('pdf/'.$data->id)}}">{{$data->title}}</a></li>
-                        
-                    @endforeach
-                    {{-- <li>Unit 1</li> --}}
-                    
-                </ul>
-            </div>
-        </div>
-        <!-- right sidebar  -->
-        <div class="rightSide">
-            <header>
-                <!-- Unit Name -->
-                <div class="unitName">Unit Name</div>
-                <div class="icon">
-
+            @foreach ($posts as $data)
+            <div class="card">
+                <div class="card-body">
                     <ul>
-                        @foreach ($posts as $data)
-                        <li>{{$data->title}}</li>
-
-                        @endforeach
-                        {{-- <li>Unit 1</li> --}}
-
+                        <h4 class="card-title">
+                        <a href="{{url('pdf/'.$data->id)}}">{{$data->title}}</a></li>
+                        </h4>
                     </ul>
                 </div>
             </div>
-            <!-- right sidebar  -->
-            <div class="rightSide">
-                <header>
-                    <!-- Unit Name -->
-                    <div class="unitName">Unit Name</div>
-                    <div class="icon">
-                        <ul>
-                            <li>
-                                <!-- fullscreen expand icon  -->
-                                <span id="expand"><i class="fas fa-expand"></i></span>
-                                <!-- fullscreen compress icon  -->
-                                <span id="compress"><i class="fas fa-compress"></i></span>
-                            </li>
-                            <li>
-                                <!-- dark mode icon  -->
-                                <span><i class="fas fa-moon"></i></span>
-                                <!-- light mode icon  -->
-                                <span><i class="fas fa-sun"></i></span>
-                            </li>
-                        </ul>
-                    </div>
-                </header>
-
-                <!-- pdf section  -->
-                <section class="pdfCont">
-                    <embed src="" type="">
-                </section>
-            </div>
+            @endforeach
         </div>
     </main>
 </body>
