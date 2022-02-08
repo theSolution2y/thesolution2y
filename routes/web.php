@@ -52,7 +52,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/contributor', [ContributorController::class, 'submit']);
 
 Route::post('/contributor', [ContributorController::class, 'store']);
 
