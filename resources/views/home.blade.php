@@ -16,8 +16,7 @@
         </div>
         <div class="right">
             <h1>ONLINE STUDYING</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aliquam exercitationem quia ut officia aut, assumenda quos, distinctio consequatur minus sint. Fugit accusamus ut neque amet, eius a doloremque, similique velit vitae quisquam ipsum veritatis repellat illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eligendi..       
-            </p>
+            <p>TheSolution2Y an open source project & an educational site, specially for university students. Click on the button down below to experience the best.</p>
             <div id="button">
             <button> <a style="text-decoration:none" href="{{url('/study')}}"> Let's Study </a> </button>
             </div>

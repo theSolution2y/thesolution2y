@@ -27,7 +27,7 @@
    
         <li class="effect"><a href="/">Home</a></li>
         <li class="effect"><a href="/about">About</a></li>
-        <li class="effect"><a href="/contact">Contact\Contribute</a></li>
+        <li class="effect"><a href="/contactus">Contact\Contribute</a></li>
       
         @guest
                 <li id="login"><a href="{{url('login')}}">Login</a></li>
@@ -51,7 +51,7 @@
       <ul class="mobile-menu">
         <li  class="effect"><a href="/">Home</a></li>
         <li  class="effect"><a href="/about">About</a></li>
-        <li  class="effect"><a href="/contact">Contact\Contribute</a></li>
+        <li  class="effect"><a href="/contactus">Contact\Contribute</a></li>
         @guest
                 <li id="login"><a href="{{url('login')}}">Login</a></li>
                 <li id="signup"><a href="{{url('register')}}">SignUp</a></li>
