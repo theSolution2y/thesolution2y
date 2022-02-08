@@ -14,14 +14,33 @@
 
 <body>
     <main>
-        <div class="Cont">
-            <!-- left sidebar  -->
-            <div class="leftSide">
-                <div class="title">
-                    <h2>Subject Name</h2>
-                </div>
-                <!-- unit name list -->
-                <div class="unitNameList">
+
+        <!-- left sidebar  -->
+        <div class="leftSide">
+            <div class="title">
+                <h2>Subject Name</h2>
+            </div>
+            <!-- unit name list -->
+            <div class="unitNameList">
+                <ul>
+                    
+                    @foreach ($posts as $data)
+                                
+                                <li><a href="{{url('pdf/'.$data->id)}}">{{$data->title}}</a></li>
+                        
+                    @endforeach
+                    {{-- <li>Unit 1</li> --}}
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- right sidebar  -->
+        <div class="rightSide">
+            <header>
+                <!-- Unit Name -->
+                <div class="unitName">Unit Name</div>
+                <div class="icon">
+
                     <ul>
                         @foreach ($posts as $data)
                         <li>{{$data->title}}</li>

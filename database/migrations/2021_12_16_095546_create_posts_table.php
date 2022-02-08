@@ -19,8 +19,8 @@ class CreatePostsTable extends Migration
             $table->integer('cat_id');
             $table->string('title');
             
-            $table->string('pdf_path');
-            $table->string('detail');
+            // $table->string('pdf_path');
+            // $table->string('detail');
             
             $table->timestamps();
         });

@@ -42,15 +42,15 @@
                 <th>Title <span class = "text-danger"> *</span></th>
                 <td><input type="text" name="title" class="form-control" /></td>
             </tr>
-            <tr>
+            {{-- <tr>
                 <input type="file" name="file" class="custom-file-input" id="chooseFile">
                 <label class="custom-file-label" for="chooseFile">Select pdf</label>
             
-            </tr>
-            <tr>
+            </tr> --}}
+            {{-- <tr>
                 <th>Detail<span class = "text-danger"> *</span></th>
                 <td><textarea name="detail" id="" class="form-control" cols="30" rows="10"></textarea></td>
-            </tr>
+            </tr> --}}
    
             
             <tr>
