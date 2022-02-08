@@ -38,9 +38,10 @@ h1{
     padding-right: 9rem;
     color: white;
     z-index: -1;
+    width: 150vmin;
 }
 button a:hover{
-    color: white;
+    color: #fff;
 }
 #button{
     z-index: -1;
@@ -48,11 +49,10 @@ button a:hover{
     justify-content: center;
     position: relative;
     top: 2rem;
-
 }
 
 button a{
-    color:white;
+    color:#edecea;
 }
 @media (max-width:910px) and (min-width:650px) {
     .right p{padding-left: 4rem;
@@ -108,10 +108,11 @@ button a{
 }
 button{
     background: linear-gradient(135deg ,rgba(52,90,164,1), rgba(63,0,156,0.92));
-    font-size: 1.3rem;
-    border-radius: 12px;
+    font-size: 1.2rem;
+    border-radius: 11px;
+    text-transform: uppercase;
     padding:0.5rem;
     width: 11rem;
-    height: 3rem;
-    border:2px solid white;
+    height: 3.5rem;
+    border: 1px solid #000;
 }

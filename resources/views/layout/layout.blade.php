@@ -25,9 +25,10 @@
       <nav>
       <ul>
    
-        <li class="effect"><a href="/">Home</a></li>
-        <li class="effect"><a href="/about">About</a></li>
-        <li class="effect"><a href="/contactus">Contact\Contribute</a></li>
+        <li class="effect"><a href="{{url('/')}}">Home</a></li>
+        <li class="effect"><a href="{{url('/study')}}">Study</a></li>
+        <li class="effect"><a href="{{url('/about')}}">About</a></li>
+        <li class="effect"><a href="{{url('/contactus')}}">Contact\Contribute</a></li>
       
         @guest
                 <li id="login"><a href="{{url('login')}}">Login</a></li>
