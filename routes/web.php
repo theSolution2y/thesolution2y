@@ -10,6 +10,8 @@ use App\Http\Controllers\ContributorController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SignupController;
 use App\Http\Controllers\SigninController;
+use App\Http\Controllers\ChapterController;
+use App\Models\Post;
 
 /*
 |--------------------------------------------------------------------------
@@ -72,3 +74,10 @@ Route::post('/signin', [SigninController::class, 'submit_login']);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// Route::get('/pdf/{id}',[ChapterController::class,'read']);
+Route::get('pdf/{id}',[ChapterController::class,'read']);
+// Route::get('/pdf/{id}', function($id) {
+//     $file = Post::find($id);
+//     return response()->file(storage_path($file->pdf_path));
+// })->name('chapter');

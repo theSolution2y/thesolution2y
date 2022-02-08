@@ -24,7 +24,8 @@
                 <ul>
                     
                     @foreach ($posts as $data)
-                    <li>{{$data->title}}</li>
+                                
+                                <li><a href="{{url('pdf/'.$data->id)}}">{{$data->title}}</a></li>
                         
                     @endforeach
                     {{-- <li>Unit 1</li> --}}

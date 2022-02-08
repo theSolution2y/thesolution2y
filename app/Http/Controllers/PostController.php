@@ -53,7 +53,7 @@ class PostController extends Controller
         // ]);
 
         // $fileName = time().'_'.$request->file->getClientOriginalName();
-        $filePath = $request->file('file')->store('public/files');
+        // $filePath = $request->file('file')->store('public/files');
 
         
        
@@ -61,14 +61,18 @@ class PostController extends Controller
         $post=new Post;
         $post->user_id=0;
         $post->cat_id=$request->category;
-        // $post->title=$request->title;
-        $post->pdf_path=$filePath;
-        $post->title=time().'_'.$request->file->getclientOriginalName();
+        $post->title=$request->title;
+        // $post->pdf_path=$filePath;
+        // $post->title=$request->file->getclientOriginalName();
         
-        $post->detail=$request->detail;
+        // $post->detail=$request->detail;
         
         $post->save();
 
+
+
+        
+    
         return redirect('admin/post/create')->with('success','Data has been added');    
     }
 
