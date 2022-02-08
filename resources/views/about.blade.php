@@ -161,34 +161,6 @@
             </span>
             <span class="card">
                 <div class="front">
-                    <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C5603AQH7p3SA33yBBQ/profile-displayphoto-shrink_400_400/0/1640842957585?e=1646265600&v=beta&t=uJM0bLRUrsm6SZfc1fmRzVMUzBnlv4xDh_bZUummkJc" alt="Card image cap">
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary">Ayush uniyal</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-                <div class="back">
-                    <ul>
-                        <li>
-                            <a href=" https://github.com/Ayush8923" target="_blank">
-                            <i class="fab fa-github-square"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href=" https://www.linkedin.com/in/ayu-uniyal-31b230217/" target="_blank">
-                            <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href=" https://twitter.com/Ayush06040189" target="_blank">
-                            <i class="fab fa-twitter-square"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </span>
-            <span class="card">
-                <div class="front">
                     <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C4D03AQH6GbBqHCrptQ/profile-displayphoto-shrink_400_400/0/1640842587282?e=1646265600&v=beta&t=FF_03guTR9XL7HlM5Mq3Ht5uPRktyH8ePi1l_dyyqa4" alt="Card image cap">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Devyush raturi</a>
