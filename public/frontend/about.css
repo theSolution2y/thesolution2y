@@ -1,25 +1,8 @@
-.aboutus::-webkit-scrollbar {
-    width: 7px;
-}
-.aboutus::-webkit-scrollbar-track {
-    background-color: transparent;
-}
-/* .aboutus::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(135deg, #f12711 10%, #f5af19 100%);
-
-    border-radius: 20px;
-} */
-.aboutus::-webkit-scrollbar-thumb:hover {
-    background-color: #a8bbbf;
-}
-
 .aboutus {
     width: 95%;
     height: 80vh;
     font-size: 2.5rem;
-    margin-top: 0.5rem;
     margin-left: 4.3rem;
-    overflow-y: scroll;
 }
 
 .aboutus h1 {
@@ -34,12 +17,15 @@
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
-    color: #5f0a87;
+    color: #333;
+    padding-right: 1.5rem;
+    text-align: justify;
 }
 
 #mission {
     margin-left: 2.2rem;
     margin-top: 2.3rem;
+    font-size: 1.3rem;
 }
 .aboutus h2 {
     margin-left: 1.4rem;
@@ -70,7 +56,7 @@ span {
     transition: all 0.7s ease;
 }
 
-.card .front{
+.card .front {
     backface-visibility: hidden;
 }
 
@@ -101,10 +87,10 @@ span {
     font-weight: bold;
 }
 
-.card .back{
+.card .back {
     position: absolute;
     top: 0;
-    width: 100%;       
+    width: 100%;
     height: 100%;
     transform: rotateY(180deg);
     backface-visibility: hidden;
@@ -112,30 +98,30 @@ span {
     border-radius: 1.2rem;
 }
 
-.back ul{
+.back ul {
     display: block;
     list-style: none;
     margin: 2.7rem 0rem;
 }
 
-.back ul li{
+.back ul li {
     margin-bottom: 1.5rem;
     padding: 0.5rem;
 }
 
-.back ul li a{
+.back ul li a {
     font-size: 1.7rem;
     color: white;
     padding: 0.5rem;
     /* background-color: transparent; */
 }
 
-.back ul li a:hover{
+.back ul li a:hover {
     font-size: 2rem;
     transform: perspective(400px) translateZ(80px);
 }
 
-.card:hover{
+.card:hover {
     transform: rotateY(180deg);
 }
 
@@ -145,7 +131,7 @@ span {
     }
 }
 @media screen and (max-width: 333px) {
-    .card{
+    .card {
         width: 100%;
     }
 }
