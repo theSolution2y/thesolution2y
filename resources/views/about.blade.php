@@ -17,24 +17,28 @@
         <p class="mission">
             Devyush and Balendu wandering in the distant hill of Tehri Garhwal, were amidst of the state of aspiring more and doing nothing.
 These two nerds were simply coming up with unworthy ideas.
+<br>
 There were not only these nerds thinking there stuffs, but some more unused brains who were just trying to start and take off with the tech,
-introducing Shivam Samant and Siddarth Saklani in the game.
+introducing Shivam Samant and Siddharth Saklani in the game.
+<br>
 These frequencies matched and they just got indulged in building something.
 Before only 2 were wandering in nothingness, but now all 4 got useless.
+<br>
 Then the same things happened that happens in nearly every average college among the students like blaming college and themselves doing nothing.
 These 4 useless fellows just thought about building a better coding ecosystem in college to involve a better engagement in the college around coding.
-
+<br>
 For nearly a month these people did nothing.
+<br>
 It was the time for exams and these people didn't studied at all, and were out of college lecture notes and resources.
 And on 13th December while travelling the distant hill these nerds just started off with building a notes and lecture sharing website for college students.
 On 14th December, they just met and started off with the project .
-
-Thus, formed the team of 4 people Balendu, Shivam, Siddarth and Devyush. 
+<br>
+Thus, formed the team of 4 people Balendu, Shivam, Siddharth and Devyush. 
 Some more joined including Ishan and Uttpal and many left the journey.
 Through social media a new person joined the team, Aadarsh from Indore.
-
+<br>
 More will join and leave but the project will remain.
-
+<br>
 
 
 
@@ -47,7 +51,6 @@ More will join and leave but the project will remain.
                     <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C4D03AQE34rUMv4-CqQ/profile-displayphoto-shrink_400_400/0/1640097418879?e=1646265600&v=beta&t=Kg8mSjGWnVspJLJHZrHdEOVzbwLe_vRUPBbXfXU0noU" alt="Card image cap">
                     <div class="card-body">
                         <a href="" class="btn btn-primary">Balendu Rawat</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 <div class="back">
@@ -75,7 +78,6 @@ More will join and leave but the project will remain.
                     <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C5603AQFTTAShllt9Kw/profile-displayphoto-shrink_400_400/0/1640522414424?e=1646265600&v=beta&t=UqDerpADgACe2FlDBc3GoUpqXkhnektWAXyqE70PEgc" alt="Card image cap">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Shivam Samant</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's contents</p>
                     </div>
                 </div>
                 <div class="back">
@@ -103,7 +105,6 @@ More will join and leave but the project will remain.
                     <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C4E03AQH98ZI2TsIq5Q/profile-displayphoto-shrink_400_400/0/1620990776781?e=1646265600&v=beta&t=a-q1uLAjwEsr4YJ2GaEPory2vGRQ1yA0WO-oGXEZ7w8" alt="Card image cap">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Shivam Uttpal Jha</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 <div class="back">
@@ -131,7 +132,6 @@ More will join and leave but the project will remain.
                     <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C5603AQHP-a2yYcywGQ/profile-displayphoto-shrink_400_400/0/1640755531220?e=1646265600&v=beta&t=W201DfH3_52vUK2XY5YP-Mfj8k787mDJxYHYrGTgSQA" alt="Card image cap">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Siddharth Saklani</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 <div class="back">
@@ -159,7 +159,6 @@ More will join and leave but the project will remain.
                     <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C4D03AQE9XdFJ2Hr5ug/profile-displayphoto-shrink_400_400/0/1640953089216?e=1646870400&v=beta&t=oIqX9qBG8eonkPzKYQjiFf-6dh8BV8ZGHvLtoaxZnRc" alt="Card image cap">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Ishan Chauhan</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 <div class="back">
@@ -187,7 +186,6 @@ More will join and leave but the project will remain.
                     <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C4D03AQH6GbBqHCrptQ/profile-displayphoto-shrink_400_400/0/1640842587282?e=1646265600&v=beta&t=FF_03guTR9XL7HlM5Mq3Ht5uPRktyH8ePi1l_dyyqa4" alt="Card image cap">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Devyush Raturi</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 <div class="back">
@@ -215,7 +213,6 @@ More will join and leave but the project will remain.
                     <img class="card-img-top circle" src="https://media-exp1.licdn.com/dms/image/C5603AQFu_dd68kal7A/profile-displayphoto-shrink_200_200/0/1644136366378?e=1649894400&v=beta&t=NZvEk5Q-WXn0N7WHJepfqk3z-Oo4r0gTe9-2ltwlhvE" alt="Card image cap">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Adarsh Thakur</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 <div class="back">

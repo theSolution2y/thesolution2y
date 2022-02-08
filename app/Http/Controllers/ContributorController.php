@@ -7,10 +7,6 @@ use App\Models\Contributor;
 
 class ContributorController extends Controller
 {
-    public function submit(){
-        return view('contributor');
-    }
-
     public function store(Request $request){
         // $request->validate([
         //     'name'=>'required',
@@ -26,6 +22,6 @@ class ContributorController extends Controller
 
         $contributor->save();
 
-        return redirect('/contributor') -> with('success', 'Form has been submitted');
+        return redirect('/contactus') -> with('success', 'Form has been submitted');
     }
 }
