@@ -6,6 +6,7 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
 
 body {
     max-width: 100%;
@@ -39,12 +40,15 @@ header {
     font-weight: bold;
     display: flex;
     align-items: center;
+    margin-left: 2rem;
 }
 
 #brand a {
     color: #fff;
     font-size: 1.7rem;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
+    font-family: 'Exo 2', sans-serif;
+    /* text-transform: uppercase; */
 }
 
 #brand img {
@@ -55,8 +59,12 @@ header {
     left: 1rem;
 }
 
+nav{
+    margin-right: 1rem;
+}
+
 ul {
-    font-size: 1.29rem;
+    font-size: 1.1rem;
     list-style: none;
     height: 100%;
     display: flex;
@@ -103,8 +111,8 @@ ul li:hover {
 
 #login,
 #signup {
-    border-radius: 5px;
-    padding: 5px 8px;
+    border-radius: 12px;
+    padding: 5px 18px;
 }
 
 #login {
@@ -198,7 +206,7 @@ ul li:hover {
 #fott {
     position: fixed;
     bottom: 0;
-    left: 23rem;
+    left: 28%;
 }
 
 @media only screen and (max-width: 420px) {
@@ -245,8 +253,13 @@ ul li:hover {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    /* margin: 5px 2px; */
+    margin-bottom: 10px;
+    margin-left: 10px;
     border-radius: 50%;
+}
+#fott a{
+    font-size: 2rem;
 }
 
 .fa:hover {
@@ -254,16 +267,13 @@ ul li:hover {
 }
 
 .fa-twitter {
-    background: #55acee;
     color: white;
 }
 
 .fa-github {
-    background: #20252575;
     color: white;
 }
 
 .fa-instagram {
-    background: #007bb5;
     color: white;
 }
