@@ -2,6 +2,7 @@
     width: 95%;
     height: 80vh;
     font-size: 2.5rem;
+    margin-top: 0.5rem;
     margin-left: 4.3rem;
 }
 
@@ -13,10 +14,9 @@
 }
 
 .aboutus p {
-    font-size: 0.7rem;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
-    margin-top: 1.5rem;
     color: #333;
     padding-right: 1.5rem;
     text-align: justify;
@@ -25,7 +25,6 @@
 #mission {
     margin-left: 2.2rem;
     margin-top: 2.3rem;
-    font-size: 1.3rem;
 }
 .aboutus h2 {
     margin-left: 1.4rem;

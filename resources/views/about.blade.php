@@ -41,6 +41,7 @@
             More will join and leave but the project will remain.
             <br>
         </p>
+
         <h2>OUR TEAM</h2>
 
         <div>
