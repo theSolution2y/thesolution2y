@@ -1,3 +1,5 @@
+@extends('layout.layout')
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,22 +11,22 @@
 </head>
 
 <body>
-    <section id="contact/contributer-section">
+    <section id="contactandcontri">
 
         <div class="contributer-section">
-            <h2>Contributer Form</h2>
+            <h2>Contributor Form</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, pariatur.</p>
             <!-- form -->
-            <form action="/contributer" method="post">
+            <form action="/contributor" method="post">
                 @csrf
-                <h4>username*</h4>
+                <label for="fname">Username*</label>
                 <input type="text" name="txt" placeholder="username" required="">
 
-                <h4>Email*</h4>
-                <input type="email" name="email" placeholder="Email" required="">
+                <label>Email*</label></br>
+                <input type="email" name="email" placeholder="Email" required=""></br>
 
-                <h4>Git Url*</h4>
-                <input type="text" name="git" placeholder="github link" required="">
+                <label>Git Url*</label></br>
+                <input type="text" name="git" placeholder="github link" required=""></br>
 
                 <div>
                     <input type="submit" value="SUBMIT">
@@ -32,27 +34,28 @@
             </form>
         </div>
 
+  <div id="divison"></div>
 
         <div class="contact-section">
             <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus ad blanditiis voluptatem vero assumenda
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus ad blanditiis voluptatem vero assumenda
                 dolor ab.</p>
             <form action="/contactus" method="post">
                 @csrf
-                <div>
-                    <h3>Full Name</h3>
+             
+                   <label for="">Name*</label>
                     <input type="text" name="name" placeholder="Full Name">
-                </div>
+                
 
-                <div class="inputBx">
-                    <h3>Email</h3>
+                
+                    <label>Email*</label></br>
                     <input type="email" name="email" placeholder="Email">
-                </div>
+            
 
-                <div class="inputBx">
-                    <h3>How can we help you?</h3>
+                
+                   <label for="">How can we help you?</label>
                     <textarea name="message" name="message" placeholder="Type Mesage Here..."></textarea>
-                </div>
+                
 
                 <div class="inputBx">
                     <input type="submit" value="SEND MESSAGE">
@@ -64,6 +67,9 @@
 
 
     </section>
+   
 </body>
 
 </html>
+
+@endsection
