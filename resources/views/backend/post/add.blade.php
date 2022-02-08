@@ -42,6 +42,10 @@
                 <th>Title <span class = "text-danger"> *</span></th>
                 <td><input type="text" name="title" class="form-control" /></td>
             </tr>
+            <tr>
+                <th>Name <span class = "text-danger"> *</span></th>
+                <td><input type="text" name="name" class="form-control" /></td>
+            </tr>
             {{-- <tr>
                 <input type="file" name="file" class="custom-file-input" id="chooseFile">
                 <label class="custom-file-label" for="chooseFile">Select pdf</label>
