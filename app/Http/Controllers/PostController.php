@@ -62,6 +62,8 @@ class PostController extends Controller
         $post->user_id=0;
         $post->cat_id=$request->category;
         $post->title=$request->title;
+        $post->name=$request->name;
+        
         // $post->pdf_path=$filePath;
         // $post->title=$request->file->getclientOriginalName();
         
